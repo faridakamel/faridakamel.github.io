@@ -1008,7 +1008,11 @@ ul.social-buttons li:last-child {
 	background: #daa520;
 }
 .contact-details {
-	margin:70px 0;
+	margin:70px 0;  
+}
+.contact-details h6, .contact-details p {
+    
+    color: #545454;
 }
 .contact-details h2 {
 	font-size:20px;
