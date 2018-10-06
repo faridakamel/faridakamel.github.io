@@ -968,14 +968,14 @@ ul.social-buttons li:last-child {
 	margin-right:0;
 }
 .social-btn {
-	width:40px;
-	height:40px;
+	width:60px;
+	height:60px;
 	background: #daa520;
 	display:inline-block;
     border:none;
 	color:#fff;
-	font-size:17px;
-	line-height:40px;
+	font-size:27px;
+	line-height:61px;
 	text-align:center;
 }
 .social-btn:hover,.social-btn:focus {
