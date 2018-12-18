@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.row{
+    height: 100%;
+    color: white;
+    font-size: 320%;
+    font-weight: bolder;
+}
+
+a.col-lg-4, a.col-sm-6{
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+a.col-lg-4, a.col-lg-4:focus, a.col-lg-4:hover, a.col-sm-6, a.col-sm-6:focus, a.col-sm-6:hover{
+	color:white;
+	text-decoration:none;
+}
