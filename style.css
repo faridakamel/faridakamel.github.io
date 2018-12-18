@@ -8,7 +8,7 @@ body{
 .row{
     height: 100%;
     color: white;
-    font-size: 320%;
+    font-size: 300%;
     font-weight: bolder;
 }
 
@@ -21,17 +21,3 @@ a.col-lg-4, a.col-lg-4:focus, a.col-lg-4:hover, a.col-sm-6, a.col-sm-6:focus, a.
 	color:white;
 	text-decoration:none;
 }
-
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
-    font-size: 20pt;
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
