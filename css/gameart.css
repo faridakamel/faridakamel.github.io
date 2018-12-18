@@ -9,9 +9,7 @@ div a, div a:hover, div a:checked{
     text-decoration: none;
 }
 
-
-
-.name h1{
+.gad h1{
     color: white;
     font-size: 50px;
     font-weight: bolder;
@@ -21,7 +19,7 @@ div a, div a:hover, div a:checked{
 
 }
 
-.name h3{
+.gad h3{
     color: white;
     font-size: 25px;
     font-weight: 250;
@@ -30,28 +28,16 @@ div a, div a:hover, div a:checked{
 
 }
 
-.heading{
-    font-size: 25px;
-    padding: 10% 0 0;
+.headerbar{
+    margin-bottom: 5%;
 }
 
-.skillheading{
-    font-size: 20px;
-    padding: 3% 20% 0;
-    margin: 0px;
-}
+div.block{
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+        height: 50%;
 
-.prg{
-    padding: 0 20%;
-}
-
-.prg p{
-    padding-top: 5%;
-}
-
-.info{
-    color: black;
-    padding: 0 20%;
 }
 
 
