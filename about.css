@@ -2,35 +2,36 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
 }
 
-h1.name{
+.name h1{
     color: white;
     font-size: 50px;
     font-weight: bolder;
     padding-top: 80px;
     padding-bottom: 10px;
     text-align: center;
+
 }
 
-h3.name{
+.name h3{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 250;
     padding-bottom: 80px;
     text-align: center;
-}
 
-.row{
-    color: white;
 }
 
 .about{
-    padding: 90px;
+    color: black;
+    padding: 20%;
+    padding-top: 70px;
 }
 
-.about p{
-    color: black;
-    text-align: center;
+.heading{
+    font-size: 25px;
+    padding-bottom: 20px;
 }
+
+
