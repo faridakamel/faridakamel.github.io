@@ -4,6 +4,16 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+h3 a{
+    color: white;
+    text-decoration: none;
+}
+
+h3 a:hover, h3 a:checked{
+    color: wheat;
+    text-decoration: none;
+}
+
 .name h1{
     color: white;
     font-size: 50px;
