@@ -30,15 +30,33 @@ div a, div a:hover, div a:checked{
 
 }
 
-.about{
-    color: black;
-    padding: 20%;
-    padding-top: 70px;
-}
-
 .heading{
     font-size: 25px;
     padding-bottom: 20px;
+}
+
+.skillheading{
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.prg{
+    padding-left: 7%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+/*
+.prg div.col-lg-4, .prg div col-sm-4{
+    padding: 1.7%;
+}
+*/
+
+.info{
+    color: black;
+    padding: 70px;
 }
 
 
