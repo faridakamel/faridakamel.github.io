@@ -4,15 +4,12 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-h3 a{
+div a, div a:hover, div a:checked{
     color: white;
     text-decoration: none;
 }
 
-h3 a:hover, h3 a:checked{
-    color: wheat;
-    text-decoration: none;
-}
+
 
 .name h1{
     color: white;
