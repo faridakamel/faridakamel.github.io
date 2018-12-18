@@ -17,7 +17,7 @@ h1.name{
 h3.name{
     color: white;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 250;
     padding-bottom: 80px;
     text-align: center;
 }
@@ -26,5 +26,11 @@ h3.name{
     color: white;
 }
 
+.about{
+    padding: 90px;
+}
 
+.about p{
+    color: black;
+    text-align: center;
 }
