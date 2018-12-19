@@ -54,7 +54,10 @@ div a, div a:hover, div a:checked{
 .outline-btn{
     padding: 1% 3%;
     color: coral;
+    font-weight: bolder;
+    font-size: 14pt;
     border: 2px solid coral;
+    border-radius: 5px;
 }
 
 .outline-btn:hover{
