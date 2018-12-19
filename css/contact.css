@@ -53,9 +53,11 @@ div a, div a:hover, div a:checked{
 
 .outline-btn{
     padding: 1% 3%;
+    font-size: 18px;
     color: mediumseagreen;
     border: 2px solid mediumseagreen;
     border-radius: 5px;
+    text-align: center;
 }
 
 .outline-btn:hover{
