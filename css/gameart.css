@@ -74,4 +74,8 @@ div.block.seven{
 
 div.block.eight{
     background-color: mediumslateblue;
+    background-image: url(/img_gad/trailers.png);
+    background-size: 130%;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
