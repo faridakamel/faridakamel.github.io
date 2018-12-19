@@ -36,40 +36,43 @@ div.block{
     border-style: solid;
     border-width: 10px;
     border-color: white;
-    height: 50%;
-    padding: 10%;
+    height: 55%;
+    min-width: 20%;
+    padding: 12%;
     text-align: center;
 }
 
 div.block.one{
-    background-color: crimson;
+    background-color: darkorange;
 }
 
 div.block.two{
     background-color: cornflowerblue;
-    padding-top: 20%
+    padding-top: 20%;
 }
 
 div.block.three{
-    background-color: darkslategray;
+    background-image: url(/img_gad/drawings01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
 
 div.block.four{
-    background-color: aliceblue;
+    background-color: darkslategray;
 }
 
 div.block.five{
-    background-color: mediumseagreen;
+    background-color: goldenrod;
 }
 
 div.block.six{
-    background-color: coral;
+    background-color: mediumseagreen;
 }
 
 div.block.seven{
-    background-color: gold;
+    background-color: aliceblue;
 }
 
 div.block.eight{
-    background-color: rebeccapurple;
+    background-color: mediumslateblue;
 }
