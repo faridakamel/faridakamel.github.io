@@ -9,25 +9,22 @@ div a, div a:hover, div a:checked{
     text-decoration: none;
 }
 
-
+.headerbar{
+    text-align: center;
+    color: white;
+}
 
 .headerbar h1{
-    color: white;
     font-size: 50px;
     font-weight: bolder;
     padding-top: 80px;
     padding-bottom: 10px;
-    text-align: center;
-
 }
 
 .headerbar h3{
-    color: white;
     font-size: 25px;
     font-weight: 250;
-    padding-bottom: 80px;
-    text-align: center;
-
+    padding-bottom: 4%;
 }
 
 .heading{
