@@ -52,7 +52,7 @@ div a, div a:hover, div a:checked{
 }
 
 .contactbanner{
-    background-color: coral;
+    background-color: #170816;
     padding: 5%
 }
 
@@ -65,8 +65,8 @@ div a, div a:hover, div a:checked{
 }
 
 .outline-btn:hover{
-    color: coral;
-    background-color: white;
+    border-color: #ee4540;
+    background-color: #ee4540;
 }
 
 
