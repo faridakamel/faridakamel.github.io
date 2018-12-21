@@ -4,13 +4,85 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-div.row{
-    height: 50%;
+div a, div a:hover, div a:checked{
+    color: white;
+    text-decoration: none;
 }
 
-div.col-lg-6, div.col-sm-12{
+.headerbar{
+    text-align: center;
+    color: white;
+}
+
+.headerbar h1{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 8%;
+    padding-bottom: 1%;
+}
+
+.headerbar h3{
+    font-size: 25px;
+    font-weight: 250;
+    padding-bottom: 4%;
+}
+
+.headerbar{
+    margin-bottom: 5%;
+}
+
+div.block{
     border-style: solid;
     border-width: 10px;
     border-color: white;
+    height: 55%;
+    min-width: 20%;
+    text-align: center;
 }
 
+div.block h1{
+    color: white;
+    font-weight: bolder;
+    line-height: 14em;
+}
+
+div.block.films{
+    background-color: darkslategray;
+    background-image: url(/img_gad/man.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div.block.two{
+    background-color: goldenrod;
+    background-image: url(/img_gad/dragon.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div.block.four{
+    background-color: skyblue;
+    background-image: url(/img_gad/oldManBling.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div.block.four:hover{
+    background-image: url(/img_gad/oldManBlingJJ.png);
+}
+
+footer a {
+	color:#a1a9b0;
+}
+footer {
+    margin-top: 3%;
+	background-color:#f3f5f8;
+	padding:40px 0 30px;
+    display: block;
+}
+footer p {
+	color: #808080;
+}

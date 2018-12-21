@@ -69,4 +69,14 @@ div a, div a:hover, div a:checked{
     background-color: #ee4540;
 }
 
-
+footer a {
+	color:#a1a9b0;
+}
+footer {
+	background-color: #f3f5f8;
+	padding: 40px 0 30px;
+    display: block;
+}
+footer p {
+	color: #808080;
+}

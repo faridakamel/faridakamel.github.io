@@ -119,3 +119,16 @@ div.block.eight{
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+footer a {
+	color:#a1a9b0;
+}
+footer {
+    margin-top: 3%;
+	background-color:#f3f5f8;
+	padding:40px 0 30px;
+    display: block;
+}
+footer p {
+	color: #808080;
+}
