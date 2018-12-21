@@ -64,7 +64,7 @@ div.block.three{
 }
 
 div.block.four{
-    background-color: darkorange;
+    background-color: lightgoldenrodyellow;
     background-image: url(/img_gad/oldManBling.png);
     background-size: contain;
     background-position: center center;
@@ -76,7 +76,7 @@ div.block.four:hover{
 }
 
 div.block.five{
-    background-color: cornflowerblue;
+    background-color: lightsteelblue;
     background-image: url(/img_gad/chest.png);
     background-size: contain;
     background-position: center center;
@@ -101,7 +101,7 @@ div.block.six:hover{
 
 
 div.block.seven{
-    background-color: mediumseagreen;
+    background-color: lightgray;
     background-image: url(/img_gad/ninja);
     background-size: contain;
     background-position: center center;
