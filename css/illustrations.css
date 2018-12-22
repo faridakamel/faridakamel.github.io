@@ -2,15 +2,28 @@
     background-color: #801836;
 }
 
-div.block.one{
+a h4{
+    padding-top: 250px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+}
+
+.block.one{
     background-color: darkslategray;
     background-image: url(/img_illus/man.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
+    color: rgba(255,255,255,0);
 }
 
-div.block.two{
+.block.one:hover{
+    color: white;
+    background-blend-mode: multiply;
+}
+
+.block.two{
     background-color: goldenrod;
     background-image: url(/img_illus/dragon.png);
     background-size: contain;
@@ -18,13 +31,21 @@ div.block.two{
     background-repeat: no-repeat;
 }
 
-div.block.three{
+.block.three{
+    background-color: gray;
     background-image: url(/img_illus/drawings01.jpg);
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    color: rgba(255,255,255,0);
+
 }
 
-div.block.four{
+.block.three:hover{
+    color: white;
+    background-blend-mode: multiply;
+}
+
+.block.four{
     background-color: lightgoldenrodyellow;
     background-image: url(/img_illus/oldManBling.png);
     background-size: contain;
@@ -32,23 +53,27 @@ div.block.four{
     background-repeat: no-repeat;
 }
 
-div.block.four:hover{
+.block.four:hover{
     background-image: url(/img_illus/oldManBlingJJ.png);
 }
 
-div.block.five{
-    background-color: #b6dcae;
+.block.five{
+    background-color: slategrey;
     background-image: url(/img_illus/chest.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
+    color: rgba(255,255,255,0);
+
 }
 
-div.block.five:hover{
+.block.five:hover{
     background-image: url(/img_illus/chestOp.png);
+    color: white;
+    background-blend-mode: multiply;
 }
 
-div.block.six{
+.block.six{
     background-color: aliceblue;
     background-image: url(/img_illus/star.png);
     background-size: contain;
@@ -56,12 +81,12 @@ div.block.six{
     background-repeat: no-repeat;
 }
 
-div.block.six:hover{
+.block.six:hover{
     background-image: url(/img_illus/starJJ.png);
 }
 
 
-div.block.seven{
+.block.seven{
     background-color: lightgray;
     background-image: url(/img_illus/ninja);
     background-size: contain;
@@ -69,14 +94,20 @@ div.block.seven{
     background-repeat: no-repeat;
 }
 
-div.block.seven:hover{
+.block.seven:hover{
     background-image: url(/img_illus/ninjaJJ.png);
 }
 
-div.block.eight{
-/*    background-color: mediumslateblue;*/
+.block.eight{
+    background-color: gainsboro;
     background-image: url(/img_illus/trailers.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    color: rgba(255,255,255,0);
+}
+
+.block.eight:hover{
+    color: white;
+    background-blend-mode: multiply;
 }

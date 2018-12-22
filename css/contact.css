@@ -6,19 +6,21 @@
     margin-bottom: 10%;
 }
 
+.block h4{
+    margin-bottom: 25px;
+}
+
 .block{
-    background-color: #801836;
-    max-height: 30%;
-    padding: 10%;
+    background-color: #510a32;
+    min-height: 200px;
+    max-height: 300px;
+    padding: 90px 10% 10%;
     margin-bottom: 10%;
+    box-shadow:0px -20px #801836 inset;
 }
 
 hr{
-    width: 40%; 
+    width: 250px; 
     background-color: white; 
-    height: 1px;
-}
-
-footer {
-    margin-top: 2%;
+    height: 3px;
 }
