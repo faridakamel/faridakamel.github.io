@@ -12,12 +12,14 @@ div a, div a:hover, div a:checked{
 .headerbar{
     text-align: center;
     color: white;
+    background-color: #510a32;
+    padding-bottom: 1%;
 }
 
 .headerbar h1{
     font-size: 50px;
     font-weight: bolder;
-    padding-top: 8%;
+    padding-top: 7%;
     padding-bottom: 1%;
 }
 
@@ -36,7 +38,7 @@ div a, div a:hover, div a:checked{
 }
 
 .menu a:hover{
-    color: antiquewhite;
+    color: wheat;
 }
 
 div.block{
@@ -128,15 +130,18 @@ div.block.eight{
     background-repeat: no-repeat;
 }
 
-footer a {
-	color:#a1a9b0;
-}
 footer {
     margin-top: 3%;
 	background-color:#f3f5f8;
 	padding:40px 0 30px;
     display: block;
+    color: #808080;
 }
-footer p {
-	color: #808080;
+
+footer a {
+	color:#a1a9b0;
+}
+
+footer a:hover {
+	color: #ee4540;
 }

@@ -12,12 +12,14 @@ div a, div a:hover, div a:checked{
 .headerbar{
     text-align: center;
     color: white;
+    background-color: #170816;
+    padding-bottom: 1%;
 }
 
 .headerbar h1{
     font-size: 50px;
     font-weight: bolder;
-    padding-top: 8%;
+    padding-top: 7%;
     padding-bottom: 1%;
 }
 
@@ -36,32 +38,12 @@ div a, div a:hover, div a:checked{
 }
 
 .menu a:hover{
-    color: antiquewhite;
+    color: wheat;
 }
-
 
 .heading{
     font-size: 25px;
     padding: 10% 0 0;
-}
-
-.skillheading{
-    font-size: 20px;
-    padding: 3% 20% 0;
-    margin: 0px;
-}
-
-.prg{
-    padding: 0 20%;
-}
-
-.prg p{
-    padding-top: 5%;
-}
-
-.info{
-    color: black;
-    padding: 0 20%;
 }
 
 .outline-btn{
@@ -78,5 +60,18 @@ div a, div a:hover, div a:checked{
     background-color: #c72c41;
 }
 
+footer {
+    margin-top: 2%;
+	background-color:#f3f5f8;
+	padding:40px 0 30px;
+    display: block;
+    color: #808080;
+}
 
+footer a {
+	color:#a1a9b0;
+}
 
+footer a:hover {
+	color: #ee4540;
+}
