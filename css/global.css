@@ -38,7 +38,7 @@ div a, div a:hover, div a:checked{
 
 .menu a{
     text-align: center;
-    padding: 1%;
+    padding: 1% 2%;
 }
 
 .menu a:hover{
