@@ -1,20 +1,10 @@
 .headerbar{
-    background-color: #510a32;
-}
-
-div.block{
-    border-style: solid;
-    border-width: 10px;
-    border-color: white;
-    height: 55%;
-    min-width: 20%;
-    padding: 12%;
-    text-align: center;
+    background-color: #801836;
 }
 
 div.block.one{
     background-color: darkslategray;
-    background-image: url(/img_gad/man.png);
+    background-image: url(/img_illus/man.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -22,70 +12,70 @@ div.block.one{
 
 div.block.two{
     background-color: goldenrod;
-    background-image: url(/img_gad/dragon.png);
+    background-image: url(/img_illus/dragon.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div.block.three{
-    background-image: url(/img_gad/drawings01.jpg);
+    background-image: url(/img_illus/drawings01.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
 }
 
 div.block.four{
     background-color: lightgoldenrodyellow;
-    background-image: url(/img_gad/oldManBling.png);
+    background-image: url(/img_illus/oldManBling.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div.block.four:hover{
-    background-image: url(/img_gad/oldManBlingJJ.png);
+    background-image: url(/img_illus/oldManBlingJJ.png);
 }
 
 div.block.five{
     background-color: #b6dcae;
-    background-image: url(/img_gad/chest.png);
+    background-image: url(/img_illus/chest.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div.block.five:hover{
-    background-image: url(/img_gad/chestOp.png);
+    background-image: url(/img_illus/chestOp.png);
 }
 
 div.block.six{
     background-color: aliceblue;
-    background-image: url(/img_gad/star.png);
+    background-image: url(/img_illus/star.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div.block.six:hover{
-    background-image: url(/img_gad/starJJ.png);
+    background-image: url(/img_illus/starJJ.png);
 }
 
 
 div.block.seven{
     background-color: lightgray;
-    background-image: url(/img_gad/ninja);
+    background-image: url(/img_illus/ninja);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div.block.seven:hover{
-    background-image: url(/img_gad/ninjaJJ.png);
+    background-image: url(/img_illus/ninjaJJ.png);
 }
 
 div.block.eight{
 /*    background-color: mediumslateblue;*/
-    background-image: url(/img_gad/trailers.png);
+    background-image: url(/img_illus/trailers.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

@@ -1,14 +1,5 @@
 .headerbar{
-    background-color: #801336;
-}
-
-div.block{
-    border-style: solid;
-    border-width: 10px;
-    border-color: white;
-    height: 55%;
-    min-width: 20%;
-    text-align: center;
+    background-color: #510a32;
 }
 
 div.block h1{
@@ -19,7 +10,7 @@ div.block h1{
 
 div.block.films{
     background-color: darkslategray;
-    background-image: url(/img_gad/man.png);
+    background-image: url(/img_illus/man.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -27,7 +18,7 @@ div.block.films{
 
 div.block.two{
     background-color: goldenrod;
-    background-image: url(/img_gad/dragon.png);
+    background-image: url(/img_illus/dragon.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -35,12 +26,12 @@ div.block.two{
 
 div.block.four{
     background-color: skyblue;
-    background-image: url(/img_gad/oldManBling.png);
+    background-image: url(/img_illus/oldManBling.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 div.block.four:hover{
-    background-image: url(/img_gad/oldManBlingJJ.png);
+    background-image: url(/img_illus/oldManBlingJJ.png);
 }

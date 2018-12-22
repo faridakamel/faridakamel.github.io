@@ -1,0 +1,33 @@
+.headerbar{
+    background-color: #510a32;
+}
+
+div.block h1{
+    color: white;
+    font-weight: bolder;
+    line-height: 14em;
+}
+
+div.block.people{
+    background-color: darkslategray;
+    background-image: url(/img_illus/man.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div.block.product{
+    background-color: goldenrod;
+    background-image: url(/img_illus/dragon.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div.block.place{
+    background-color: goldenrod;
+    background-image: url(/img_illus/drawings01.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

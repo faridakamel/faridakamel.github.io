@@ -53,15 +53,15 @@ div a, div a:hover, div a:checked{
     background-color: #c72c41;
 }
 
-.photo{
+.illus{
     background-color: #801836;
 }
 
-.gad{
+.photo{
     background-color: #510a32;
 }
 
-.illus{
+.film{
     background-color: #2d142c;
 }
 
@@ -70,8 +70,19 @@ div a, div a:hover, div a:checked{
 }
 
 .not-active {
-  pointer-events: none;
-  cursor: default;
+    pointer-events: none;
+    cursor: default;
+    color: wheat;
+}
+
+div.block{
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    height: 55%;
+    min-width: 20%;
+    text-align: center;
+    color: white;
 }
 
 footer {
