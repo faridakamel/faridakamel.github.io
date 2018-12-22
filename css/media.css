@@ -12,23 +12,33 @@ div a, div a:hover, div a:checked{
 .headerbar{
     text-align: center;
     color: white;
+    background-color: #801336;
+    padding-bottom: 1%;
 }
 
 .headerbar h1{
     font-size: 50px;
     font-weight: bolder;
-    padding-top: 8%;
+    padding-top: 7%;
     padding-bottom: 1%;
 }
 
 .headerbar h3{
     font-size: 25px;
     font-weight: 250;
-    padding-bottom: 4%;
 }
 
-.headerbar{
-    margin-bottom: 5%;
+.menu{
+    color: white;
+}
+
+.menu a{
+    text-align: center;
+    padding: 1%;
+}
+
+.menu a:hover{
+    color: wheat;
 }
 
 div.block{
@@ -74,15 +84,18 @@ div.block.four:hover{
     background-image: url(/img_gad/oldManBlingJJ.png);
 }
 
-footer a {
-	color:#a1a9b0;
-}
 footer {
     margin-top: 3%;
 	background-color:#f3f5f8;
 	padding:40px 0 30px;
     display: block;
+    color: #808080;
 }
-footer p {
-	color: #808080;
+
+footer a {
+	color:#a1a9b0;
+}
+
+footer a:hover {
+	color: #ee4540;
 }

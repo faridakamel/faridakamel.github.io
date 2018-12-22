@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+div a, div a:hover, div a:checked{
+    color: white;
+    text-decoration: none;
+}
+
+.headerbar{
+    text-align: center;
+    color: white;
+    padding-bottom: 1%;
+}
+
+.headerbar h1{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 7%;
+    padding-bottom: 1%;
+}
+
+.headerbar h3{
+    font-size: 25px;
+    font-weight: 250;
+}
+
+.row.menu{
+    color: white;
+    margin-bottom: 5%;
+}
+
+.menu a{
+    text-align: center;
+    padding: 1%;
+}
+
+.menu a:hover{
+    color: wheat;
+}
+
+footer {
+    margin-top: 3%;
+	background-color:#f3f5f8;
+	padding:40px 0 30px;
+    display: block;
+    color: #808080;
+}
+
+footer a {
+	color:#a1a9b0;
+}
+
+footer a:hover {
+	color: #ee4540;
+}
