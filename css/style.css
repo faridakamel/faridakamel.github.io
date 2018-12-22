@@ -15,9 +15,10 @@ body{
 a.col-lg-4, a.col-sm-6{
     padding-top: 2%;
     padding-left: 2%;
+    color: white;
 }
 
-a.col-lg-4, a.col-lg-4:focus, a.col-lg-4:hover, a.col-sm-6, a.col-sm-6:focus, a.col-sm-6:hover{
-	color:white;
-	text-decoration:none;
+a.col-lg-4:hover, a.col-sm-6:hover{
+    color: wheat;
+    text-decoration: none;
 }
