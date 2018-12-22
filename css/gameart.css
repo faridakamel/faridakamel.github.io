@@ -41,81 +41,29 @@ div.block{
     text-align: center;
 }
 
-div.block.one{
-    background-color: darkslategray;
-    background-image: url(/img_gad/man.png);
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
+div.block h1{
+    color: rgba(255,255,255,0.3);
+    font-size: 150px;
+    font-weight: bolder;
+    line-height: 2.5em;
 }
 
-div.block.two{
-    background-color: goldenrod;
+div.block h1:hover{
+    color: white;
+}
+
+div.block.twod{
+    background-color: lightsteelblue;
     background-image: url(/img_gad/dragon.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-div.block.three{
-    background-image: url(/img_gad/drawings01.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-}
-
-div.block.four{
-    background-color: lightgoldenrodyellow;
-    background-image: url(/img_gad/oldManBling.png);
+div.block.threed{
+    background-color: gray;
+/*    background-image: url(/img_gad/man.png);*/
     background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-div.block.four:hover{
-    background-image: url(/img_gad/oldManBlingJJ.png);
-}
-
-div.block.five{
-    background-color: #b6dcae;
-    background-image: url(/img_gad/chest.png);
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-div.block.five:hover{
-    background-image: url(/img_gad/chestOp.png);
-}
-
-div.block.six{
-    background-color: aliceblue;
-    background-image: url(/img_gad/star.png);
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-div.block.six:hover{
-    background-image: url(/img_gad/starJJ.png);
-}
-
-
-div.block.seven{
-    background-color: lightgray;
-    background-image: url(/img_gad/ninja);
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-div.block.seven:hover{
-    background-image: url(/img_gad/ninjaJJ.png);
-}
-
-div.block.eight{
-/*    background-color: mediumslateblue;*/
-    background-image: url(/img_gad/trailers.png);
-    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
