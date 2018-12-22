@@ -41,27 +41,27 @@ div a, div a:hover, div a:checked{
     color: wheat;
 }
 
-.menu a.about{
+.about{
     background-color: #ee4540;
 }
 
-.menu a.gd{
+.gd{
     background-color: #c72c41;
 }
 
-.menu a.media{
-    background-color: #801336;
+.photo{
+    background-color: #801836;
 }
 
-.menu a.gad{
+.gad{
     background-color: #510a32;
 }
 
-.menu a.illus{
+.illus{
     background-color: #2d142c;
 }
 
-.menu a.contact{
+.contact{
     background-color: #170816;
 }
 
