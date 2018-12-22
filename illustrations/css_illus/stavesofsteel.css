@@ -22,9 +22,33 @@
     background-image: url(/img_illus/oldManBlingJJ.png);
 }
 
+.block.hunter{
+    background-color: darkseagreen;
+    background-image: url(/img_illus/hunter.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.block.hunter:hover{
+    background-image: url(/img_illus/hunterJJ.png);
+}
+
+.block.agent{
+    background-color: gainsboro;
+    background-image: url(/img_illus/secretAgent.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.block.agent:hover{
+    background-image: url(/img_illus/secretAgentJJ.png);
+}
+
 .block.ninja{
     background-color: palegoldenrod;
-    background-image: url(/img_illus/ninja);
+    background-image: url(/img_illus/ninja.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -35,15 +59,9 @@
 }
 
 .block.chest{
-    background-color: slategrey;
-    background-image: url(/img_illus/chest.png);
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.block.chest:hover{
-    background-image: url(/img_illus/chestOp.png);
+    background-image: url(/img_illus/stoneWall.png);
+    background-size: 200px;
+    background-position: left;
 }
 
 .block.star{
