@@ -41,6 +41,35 @@ div a, div a:hover, div a:checked{
     color: wheat;
 }
 
+.menu a.about{
+    background-color: #ee4540;
+}
+
+.menu a.gd{
+    background-color: #c72c41;
+}
+
+.menu a.media{
+    background-color: #801336;
+}
+
+.menu a.gad{
+    background-color: #510a32;
+}
+
+.menu a.illus{
+    background-color: #2d142c;
+}
+
+.menu a.contact{
+    background-color: #170816;
+}
+
+.not-active {
+  pointer-events: none;
+  cursor: default;
+}
+
 footer {
     margin-top: 3%;
 	background-color:#f3f5f8;
