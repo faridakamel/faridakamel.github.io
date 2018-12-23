@@ -9,18 +9,16 @@ div.block h1{
 }
 
 div.block.people{
-    background-color: darkslategray;
-    background-image: url(/img_illus/man.png);
-    background-size: contain;
-    background-position: center center;
+    background-image: url(/img_photo/peopleFinal);
+    background-size: cover;
+    background-position: bottomcenter;
     background-repeat: no-repeat;
 }
 
 div.block.product{
-    background-color: goldenrod;
-    background-image: url(/img_illus/dragon.png);
-    background-size: contain;
-    background-position: center center;
+    background-image: url(/img_photo/productMidterm.jpg);
+    background-size: cover;
+    background-position: bottomcenter;
     background-repeat: no-repeat;
 }
 

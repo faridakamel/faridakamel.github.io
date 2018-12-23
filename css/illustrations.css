@@ -3,7 +3,7 @@
 }
 
 a h4{
-    padding-top: 150px;
+    padding-top: 200px;
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center;
@@ -23,14 +23,6 @@ a h4{
     background-blend-mode: multiply;
 }
 
-.block.two{
-    background-color: goldenrod;
-    background-image: url(/img_illus/dragon.png);
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
 .block.three{
     background-color: gray;
     background-image: url(/img_illus/drawings01.jpg);
@@ -43,18 +35,6 @@ a h4{
 .block.three:hover{
     color: white;
     background-blend-mode: multiply;
-}
-
-.block.four{
-    background-color: lightgoldenrodyellow;
-    background-image: url(/img_illus/oldManBling.png);
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.block.four:hover{
-    background-image: url(/img_illus/oldManBlingJJ.png);
 }
 
 .block.five{
@@ -73,33 +53,8 @@ a h4{
     background-blend-mode: multiply;
 }
 
-.block.six{
-    background-color: aliceblue;
-    background-image: url(/img_illus/star.png);
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.block.six:hover{
-    background-image: url(/img_illus/starJJ.png);
-}
-
-
-.block.seven{
-    background-color: lightgray;
-    background-image: url(/img_illus/ninja);
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.block.seven:hover{
-    background-image: url(/img_illus/ninjaJJ.png);
-}
-
 .block.eight{
-    background-color: gainsboro;
+    background-color: dimgray;
     background-image: url(/img_illus/trailers.png);
     background-size: cover;
     background-position: center center;
