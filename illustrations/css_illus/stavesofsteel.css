@@ -2,6 +2,12 @@
     background-color: #801836;
 }
 
+.block{
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .block h1{
     font-weight: bolder;
     text-align: center;
@@ -9,67 +15,53 @@
 
 .block.old{
     background-color: lightsteelblue;
-    background-image: url(/img_illus/oldManBling.png);
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url(/illustrations/img_illus/oldManBling.png);
 }
 
 .block.old:hover{
-    background-image: url(/img_illus/oldManBlingJJ.png);
+    background-image: url(/illustrations/img_illus/oldManBlingJJ.png);
 }
 
 .block.hunter{
     background-color: darkseagreen;
-    background-image: url(/img_illus/hunter.png);
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url(/illustrations/img_illus/hunter.png);
 }
 
 .block.hunter:hover{
-    background-image: url(/img_illus/hunterJJ.png);
+    background-image: url(/illustrations/img_illus/hunterJJ.png);
 }
 
 .block.agent{
     background-color: gainsboro;
-    background-image: url(/img_illus/secretAgent.png);
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url(/illustrations/img_illus/secretAgent.png);
 }
 
 .block.agent:hover{
-    background-image: url(/img_illus/secretAgentJJ.png);
+    background-image: url(/illustrations/img_illus/secretAgentJJ.png);
 }
 
 .block.ninja{
     background-color: palegoldenrod;
-    background-image: url(/img_illus/ninja.png);
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url(/illustrations/img_illus/ninja.png);
 }
 
 .block.ninja:hover{
-    background-image: url(/img_illus/ninjaJJ.png);
+    background-image: url(/illustrations/img_illus/ninjaJJ.png);
 }
 
 .block.chest{
-    background-image: url(/img_illus/stoneWall.png);
+    background-image: url(/illustrations/img_illus/stoneWall.png);
     background-size: 200px;
     background-position: left;
+    background-repeat:repeat;
 }
 
 .block.star{
     background-color: aliceblue;
-    background-image: url(/img_illus/star.png);
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url(/illustrations/img_illus/star.png);
 }
 
 .block.star:hover{
-    background-image: url(/img_illus/starJJ.png);
+    background-image: url(/illustrations/img_illus/starJJ.png);
 }
 

@@ -1,0 +1,37 @@
+.headerbar{
+    background-color: #801836;
+}
+
+.block{
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.block h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.block.full{
+    background-image: url(/illustrations/img_illus/angieFull.png);
+    height: 600px;
+    background-size: 850px;
+    background-color:gainsboro;
+}
+
+.block.fullfront{
+    background-image: url(/illustrations/img_illus/angieFullFront.png);
+    height: 1000px;
+    background-color:gainsboro;
+}
+
+.block.front{
+    background-image: url(/illustrations/img_illus/angieHeadFront.png);
+    background-color:gainsboro;
+}
+
+.block.side{
+    background-image: url(/illustrations/img_illus/angieHeadSide.png);
+    background-color:gainsboro;
+}

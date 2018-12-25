@@ -23,34 +23,34 @@ a h4{
 
 .block.kingdom{
     background-color: darkslategray;
-    background-image: url(/img_illus/man.png);
+    background-image: url(/illustrations/img_illus/man.png);
     background-size: contain;
 }
 
 .block.pillars{
     background-color: gray;
-    background-image: url(/img_illus/drawings01.jpg);
+    background-image: url(/illustrations/img_illus/drawings01.jpg);
     background-size: cover;
 }
 
 .block.pixel{
     background-color: slategrey;
-    background-image: url(/img_illus/chest.png);
+    background-image: url(/illustrations/img_illus/chest.png);
     background-size: contain;
 }
 
 .block.pixel:hover{
-    background-image: url(/img_illus/chestOp.png);
+    background-image: url(/illustrations/img_illus/chestOp.png);
 }
 
 .block.trailers{
     background-color: dimgray;
-    background-image: url(/img_illus/trailers.png);
+    background-image: url(/illustrations/img_illus/trailers.png);
     background-size: cover;
 }
 
 .block.angie{
-    background-color: darkgoldenrod;
-    background-image: url();
-    background-size: cover;
+    background-color: goldenrod;
+    background-image: url(/illustrations/img_illus/angieHeadFront.png);
+    background-size: contain;
 }
