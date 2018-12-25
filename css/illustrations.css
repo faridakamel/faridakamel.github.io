@@ -9,60 +9,48 @@ a h4{
     align-items: center;
 }
 
-.block.one{
+.block{
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: rgba(255,255,255,0);
+}
+
+.block:hover{
+    color: white;
+    background-blend-mode: multiply;
+
+}
+
+.block.kingdom{
     background-color: darkslategray;
     background-image: url(/img_illus/man.png);
     background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-    color: rgba(255,255,255,0);
 }
 
-.block.one:hover{
-    color: white;
-    background-blend-mode: multiply;
-}
-
-.block.three{
+.block.pillars{
     background-color: gray;
     background-image: url(/img_illus/drawings01.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    color: rgba(255,255,255,0);
-
 }
 
-.block.three:hover{
-    color: white;
-    background-blend-mode: multiply;
-}
-
-.block.five{
+.block.pixel{
     background-color: slategrey;
     background-image: url(/img_illus/chest.png);
     background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-    color: rgba(255,255,255,0);
-
 }
 
-.block.five:hover{
+.block.pixel:hover{
     background-image: url(/img_illus/chestOp.png);
-    color: white;
-    background-blend-mode: multiply;
 }
 
-.block.eight{
+.block.trailers{
     background-color: dimgray;
     background-image: url(/img_illus/trailers.png);
     background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    color: rgba(255,255,255,0);
 }
 
-.block.eight:hover{
-    color: white;
-    background-blend-mode: multiply;
+.block.angie{
+    background-color: darkgoldenrod;
+    background-image: url();
+    background-size: cover;
 }

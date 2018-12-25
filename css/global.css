@@ -84,6 +84,12 @@ div a, div a:hover, div a:checked{
     color: white;
 }
 
+.block.aboutthegame{
+    height: auto;
+    color: black;
+    padding-bottom: 10px;
+}
+
 footer {
     margin-top: 3%;
 	background-color:#f3f5f8;

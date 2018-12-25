@@ -2,12 +2,9 @@
     background-color: #801836;
 }
 
-.block.group{
-    background-color: darkgray;
-    background-image: url();
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
+.block h1{
+    font-weight: bolder;
+    text-align: center;
 }
 
 .block.old{
