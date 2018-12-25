@@ -35,3 +35,24 @@
     background-image: url(/illustrations/img_illus/angieHeadSide.png);
     background-color:gainsboro;
 }
+
+.block.texture{
+    background-size: cover;
+    height: 300px;
+}
+
+.block.texture.one{
+    background-image: url(/illustrations/img_illus/hairtexture.png);
+}
+
+.block.texture.two{
+    background-image: url(/illustrations/img_illus/leopardPants.png);
+}
+
+.block.texture.three{
+    background-image: url(/illustrations/img_illus/goldnosering.jpg);
+}
+
+.block.texture.four{
+    background-image: url(/illustrations/img_illus/purplesatin.jpg);
+}
