@@ -14,7 +14,7 @@
 }
 
 .block.old{
-    background-color: lightsteelblue;
+    background-color: lavender;
     background-image: url(/illustrations/img_illus/oldManBling.png);
 }
 
@@ -56,12 +56,22 @@
     background-repeat:repeat;
 }
 
+.block.dagger{
+    background-color: darkseagreen;
+    background-image: url(/illustrations/img_illus/dagger.png);
+}
+
 .block.star{
-    background-color: aliceblue;
+    background-color: palegoldenrod;
     background-image: url(/illustrations/img_illus/star.png);
 }
 
-.block.star:hover{
-    background-image: url(/illustrations/img_illus/starJJ.png);
+.block.orb{
+    background-color: lavender;
+    background-image: url(/illustrations/img_illus/orb.png);
 }
 
+.block.javelin{
+    background-color: gainsboro;
+    background-image: url(/illustrations/img_illus/javelin.png);
+}
