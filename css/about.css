@@ -1,5 +1,5 @@
 .headerbar{
-    background-color: #ee4540;
+    background-color: #e03c40;
 }
 
 .heading{
@@ -40,6 +40,6 @@
 }
 
 .outline-btn:hover{
-    border-color: #ee4540;
-    background-color: #ee4540;
+    border-color: #e03c40;
+    background-color: #e03c40;
 }

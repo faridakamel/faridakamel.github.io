@@ -31,13 +31,13 @@
     background-image: url(/illustrations/img_illus/hunterJJ.png);
 }
 
-.block.agent{
+.block.tarzan{
     background-color: gainsboro;
-    background-image: url(/illustrations/img_illus/secretAgent.png);
+    background-image: url(/illustrations/img_illus/tarzanesque.png);
 }
 
-.block.agent:hover{
-    background-image: url(/illustrations/img_illus/secretAgentJJ.png);
+.block.tarzan:hover{
+    background-image: url(/illustrations/img_illus/tarzanesqueJJ.png);
 }
 
 .block.ninja{

@@ -2,30 +2,31 @@
     background-color: #510a32;
 }
 
-div.block h1{
+.block{
+    background-color: grey;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.block:hover{
+    background-blend-mode: multiply;
+}
+
+.block h1{
     color: white;
     font-weight: bolder;
     line-height: 12em;
 }
 
-div.block.people{
+.block.people{
     background-image: url(/img_photo/peopleFinal);
-    background-size: cover;
-    background-position: bottomcenter;
-    background-repeat: no-repeat;
 }
 
-div.block.product{
+.block.product{
     background-image: url(/img_photo/productMidterm.jpg);
-    background-size: cover;
-    background-position: bottomcenter;
-    background-repeat: no-repeat;
 }
 
-div.block.place{
-    background-color: goldenrod;
-    background-image: url(/img_illus/drawings01.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+.block.place{
+    background-image: url(/illustrations/img_illus/drawings01.jpg); 
 }
