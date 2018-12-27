@@ -74,9 +74,13 @@ div a, div a:hover, div a:checked{
     cursor: default;
 }
 
+body{
+    min-width: 600px;
+}
+
 .block{
     border-style: solid;
-    border-width: 10px;
+    border-width: 30px;
     border-color: white;
     height: 550px;
     min-width: 20%;

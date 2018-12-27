@@ -7,6 +7,8 @@
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+    border-width: 10px;
+    height: 500px;
 }
 
 .block:hover{
@@ -25,6 +27,8 @@
 
 .block.product{
     background-image: url(/img_photo/productMidterm.jpg);
+    background-position: center center;
+
 }
 
 .block.place{
