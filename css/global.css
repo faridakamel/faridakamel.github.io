@@ -82,16 +82,17 @@ body{
     border-style: solid;
     border-width: 30px;
     border-color: white;
-    height: 550px;
+    height: 500px;
     min-width: 20%;
     text-align: center;
     color: white;
 }
 
 .block.aboutthegame{
-    height: auto;
     color: black;
-    padding-bottom: 10px;
+    text-align: left;
+    height: auto;
+    padding: 0px;
 }
 
 footer {

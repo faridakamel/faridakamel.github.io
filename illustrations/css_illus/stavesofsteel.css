@@ -13,6 +13,15 @@
     text-align: center;
 }
 
+.block.agent{
+    background-color: mistyrose;
+    background-image: url(/illustrations/img_illus/secretAgent.png);
+}
+
+.block.agent:hover{
+    background-image: url(/illustrations/img_illus/secretAgentJJ.png);
+}
+
 .block.old{
     background-color: lavender;
     background-image: url(/illustrations/img_illus/oldManBling.png);
