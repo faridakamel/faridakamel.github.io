@@ -6,6 +6,7 @@
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
+    min-width: 500px;
 }
 
 .block h1{
@@ -54,6 +55,7 @@
     background-size: 200px;
     background-position: left;
     background-repeat:repeat;
+    overflow: auto;
 }
 
 .block.dagger{
