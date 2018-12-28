@@ -15,15 +15,16 @@
 
 .block.full{
     background-image: url(/illustrations/img_illus/angieFull.png);
-    width: 100%;
-    background-size: 850px;
     background-color:gainsboro;
+    height: 45vw;
+    background-size: cover;
 }
 
 .block.fullfront{
     background-image: url(/illustrations/img_illus/angieFullFront.png);
-    height: 100%;
     background-color:gainsboro;
+    height: 85vw;
+    background-size: cover;
 }
 
 .block.front{
@@ -38,7 +39,7 @@
 
 .block.texture{
     background-size: cover;
-    height: 300px;
+    height: 200px;
 }
 
 .block.texture.one{
