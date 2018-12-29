@@ -2,23 +2,99 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
 }
 
-.row{
-    height: 100%;
+div a, div a:hover, div a:checked{
     color: white;
-    font-size: 39px;
-    font-weight: bolder;
-}
-
-a.col-lg-4, a.col-sm-6{
-    padding-top: 2%;
-    padding-left: 2%;
-    color: white;
-}
-
-a.col-lg-4:hover, a.col-sm-6:hover{
-    color: wheat;
     text-decoration: none;
+}
+
+.headerbar{
+    text-align: center;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.headerbar h1{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.headerbar h3{
+    font-size: 25px;
+    font-weight: 250;
+}
+
+.headerbar a:hover{
+    color: wheat;
+}
+
+.row.menu{
+    color: white;
+    margin-bottom: 45px;
+}
+
+.menu a{
+    text-align: center;
+    padding: 10px 2%;
+}
+
+.menu a:hover{
+    color: wheat;
+}
+
+.about{
+    background-color: #801836;
+}
+
+.work{
+    background-color: #510a32;
+}
+
+.contact{
+    background-color: #2d142c;
+}
+
+.not-active {
+    pointer-events: none;
+    cursor: default;
+}
+
+body{
+    min-width: 600px;
+}
+
+.block{
+    border-style: solid;
+    border-width: 30px;
+    border-color: white;
+    height: 300px;
+    min-width: 20%;
+    text-align: center;
+    color: white;
+}
+
+.block.aboutthegame{
+    color: black;
+    text-align: left;
+    height: auto;
+    padding: 0px;
+}
+
+footer {
+    margin-top: 3%;
+	background-color:#f3f5f8;
+	padding:40px 0 30px;
+    display: block;
+    color: #808080;
+}
+
+footer a {
+	color:#a1a9b0;
+}
+
+footer a:hover {
+	color: #e03c40;
 }

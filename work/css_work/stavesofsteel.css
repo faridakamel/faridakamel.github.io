@@ -1,0 +1,101 @@
+.headerbar{
+    background-color: #510a32;
+}
+
+.block{
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.block h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.block.agent{
+    background-color: mistyrose;
+    background-image: url(/work/img_work/img_stavesofsteel/secretAgent.png);
+}
+
+.block.agent:hover{
+    background-image: url(/work/img_work/img_stavesofsteel/secretAgentJJ.png);
+}
+
+.block.old{
+    background-color: lavender;
+    background-image: url(/work/img_work/img_stavesofsteel/oldManBling.png);
+}
+
+.block.old:hover{
+    background-image: url(/work/img_work/img_stavesofsteel/oldManBlingJJ.png);
+}
+
+.block.hunter{
+    background-color: darkseagreen;
+    background-image: url(/work/img_work/img_stavesofsteel/hunter.png);
+}
+
+.block.hunter:hover{
+    background-image: url(/work/img_work/img_stavesofsteel/hunterJJ.png);
+}
+
+.block.tarzan{
+    background-color: gainsboro;
+    background-image: url(/work/img_work/img_stavesofsteel/tarzanesque.png);
+}
+
+.block.tarzan:hover{
+    background-image: url(/work/img_work/img_stavesofsteel/tarzanesqueJJ.png);
+}
+
+.block.ninja{
+    background-color: palegoldenrod;
+    background-image: url(/work/img_work/img_stavesofsteel/ninja.png);
+}
+
+.block.ninja:hover{
+    background-image: url(/work/img_work/img_stavesofsteel/ninjaJJ.png);
+}
+
+.block.chest{
+    background-image: url(/work/img_work/img_stavesofsteel/stoneWall.png);
+    background-size: 200px;
+    background-position: left;
+    background-repeat:repeat;
+    overflow: hidden;
+}
+
+.block.dagger{
+    background-color: darkseagreen;
+    background-image: url(/work/img_work/img_stavesofsteel/dagger.png);
+}
+
+.block.star{
+    background-color: palegoldenrod;
+    background-image: url(/work/img_work/img_stavesofsteel/star.png);
+}
+
+.block.orb{
+    background-color: lavender;
+    background-image: url(/work/img_work/img_stavesofsteel/orb.png);
+}
+
+.block.javelin{
+    background-color: gainsboro;
+    background-image: url(/work/img_work/img_stavesofsteel/javelin.png);
+}
+
+.outline-btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    color: #801836;
+    border: 2px solid #801836;
+    border-radius: 5px;
+}
+
+.outline-btn:hover{
+    border-color: #801836;
+    background-color: #801836;
+}

@@ -1,9 +1,9 @@
 .headerbar{
-    background-color: #170816;
+    background-color: #2d142c;
 }
 
 .upperthing{
-    margin-bottom: 10%;
+    margin-bottom: 8%;
 }
 
 .block h4{
@@ -15,7 +15,7 @@
     min-height: 200px;
     max-height: 300px;
     padding: 60px 10% 10%;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
     box-shadow:0px -20px #801836 inset;
 }
 

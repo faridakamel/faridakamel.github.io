@@ -1,9 +1,9 @@
 .headerbar{
-    background-color: #801836;
+    background-color: #510a32;
 }
 
 a h4{
-    padding-top: 200px;
+    padding-top: 100px;
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center;
@@ -13,44 +13,54 @@ a h4{
     background-position: center center;
     background-repeat: no-repeat;
     color: rgba(255,255,255,0);
+    background-color: #414141;
 }
 
 .block:hover{
     color: white;
     background-blend-mode: multiply;
-
 }
 
 .block.kingdom{
     background-color: darkslategray;
-    background-image: url(/illustrations/img_illus/man.png);
+    background-image: url(/work/img_work/man.png);
     background-size: contain;
 }
 
 .block.pillars{
     background-color: gray;
-    background-image: url(/illustrations/img_illus/drawings01.jpg);
+    background-image: url(/work/img_work/drawings01.jpg);
     background-size: cover;
 }
 
 .block.pixel{
     background-color: slategrey;
-    background-image: url(/illustrations/img_illus/chest.png);
+    background-image: url(/work/img_work/img_stavesofsteel/chest.png);
     background-size: contain;
 }
 
 .block.pixel:hover{
-    background-image: url(/illustrations/img_illus/chestOp.png);
+    background-image: url(/work/img_work/img_stavesofsteel/chestOp.png);
 }
 
 .block.trailers{
     background-color: dimgray;
-    background-image: url(/illustrations/img_illus/trailers.png);
+    background-image: url(/work/img_work/trailers.png);
     background-size: cover;
 }
 
 .block.angie{
     background-color: goldenrod;
-    background-image: url(/illustrations/img_illus/angieHeadFront.png);
+    background-image: url(/work/img_work/img_arabiangypsy/angieHeadFront.png);
     background-size: contain;
+}
+
+.block.daft{
+    background-image: url(/work/img_work/DAFTposter.jpg);
+    background-size: cover;
+}
+
+.block.aida{
+    background-image: url(/work/img_work/Poster%20A1.jpg);
+    background-size: cover;
 }
