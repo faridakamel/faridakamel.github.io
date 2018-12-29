@@ -21,9 +21,9 @@ a h4{
     background-blend-mode: multiply;
 }
 
-.block.kingdom{
+.block.jewels{
     background-color: darkslategray;
-    background-image: url(/work/img_work/man.png);
+    background-image: url(/work/img_work/img_crownjewels/man.png);
     background-size: contain;
 }
 
@@ -61,6 +61,6 @@ a h4{
 }
 
 .block.aida{
-    background-image: url(/work/img_work/Poster%20A1.jpg);
+    background-image: url(/work/img_work/img_operaaida/A1poster.jpg);
     background-size: cover;
 }
