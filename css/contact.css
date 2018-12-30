@@ -3,7 +3,7 @@
 }
 
 .upperthing{
-    margin-bottom: 8%;
+    margin-bottom: 100px;
 }
 
 .block h4{
@@ -15,7 +15,7 @@
     min-height: 200px;
     max-height: 300px;
     padding: 60px 10% 10%;
-    margin-bottom: 8%;
+    margin-bottom: 70px;
     box-shadow:0px -20px #801836 inset;
 }
 

@@ -10,25 +10,11 @@ div a, div a:hover, div a:checked{
 }
 
 .headerbar{
-    text-align: center;
-    color: white;
-    padding-bottom: 2%;
-}
-
-.headerbar h1{
-    font-size: 50px;
-    font-weight: bolder;
-    padding-top: 5%;
-    padding-bottom: 2%;
-}
-
-.headerbar h3{
-    font-size: 25px;
-    font-weight: 250;
-}
-
-.headerbar a:hover{
-    color: wheat;
+    background-image: url(/2xWhite.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20%;
 }
 
 .row.menu{

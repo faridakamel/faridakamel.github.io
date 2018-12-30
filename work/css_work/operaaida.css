@@ -13,9 +13,8 @@
     text-align: center;
 }
 
-.block.agent{
-    background-color: mistyrose;
-    background-image: url(/work/img_work/img_stavesofsteel/secretAgent.png);
+.block.poster{
+    height: 100%;
 }
 
 .block.agent:hover{
