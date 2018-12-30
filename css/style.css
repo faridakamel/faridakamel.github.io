@@ -10,6 +10,7 @@ div a, div a:hover, div a:checked{
 }
 
 .headerbar{
+    padding-top: 10%;
     background-image: url(/2xWhite.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -46,10 +47,6 @@ div a, div a:hover, div a:checked{
 .not-active {
     pointer-events: none;
     cursor: default;
-}
-
-body{
-    min-width: 600px;
 }
 
 .block{
