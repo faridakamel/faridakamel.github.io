@@ -1,12 +1,13 @@
 /*
 .headerbar{
-    background-color: #801836;
+    background-color: #76323f;
 }
 */
 
 .heading{
     font-size: 25px;
     padding: 10% 0 0;
+    color: #76323f;
 }
 
 .skillheading{
@@ -23,26 +24,16 @@
     padding-top: 20px;
 }
 
+.progress .progress-bar{
+    background-color: #c09f80;
+}
+
 .info{
     color: black;
     padding: 0 20%;
 }
 
 .contactbanner{
-    background-color: #510a32;
-    padding: 60px;
-}
-
-.outline-btn{
-    padding: 10px 20px;
-    font-size: 18px;
-    color: white;
-    border: 2px solid white;
-    border-radius: 5px;
-}
-
-
-.outline-btn:hover{
-    border-color: #e03c40;
-    background-color: #e03c40;
+/*    background-color: #510a32;*/
+    padding-bottom: 20px;
 }

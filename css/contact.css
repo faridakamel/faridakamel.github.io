@@ -13,16 +13,17 @@
 }
 
 .block{
-    background-color: #510a32;
+    background-color: #e8e1dc;
+    color: #565656;
     min-height: 200px;
     max-height: 300px;
     padding: 60px 10% 10%;
     margin-bottom: 70px;
-    box-shadow:0px -20px #801836 inset;
+    box-shadow:0px -10px #76323f inset;
 }
 
 hr{
     width: 150px; 
-    background-color: white; 
+    background-color: lightgray; 
     height: 3px;
 }

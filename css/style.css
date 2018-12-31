@@ -8,6 +8,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+p{
+    color: #565656;
+}
+
 div a, div a:hover, div a:checked{
     color: white;
     text-decoration: none;
@@ -23,37 +27,25 @@ div a, div a:hover, div a:checked{
 }
 
 .row.menu{
-    color: white;
     margin-bottom: 45px;
-	background-color: black;
+	background-color: #e8e1dc;
 }
 
 .menu a{
     text-align: center;
+    color: #565656;
     padding: 10px 2%;
 }
 
 .menu a:hover{
-    color: wheat;
+    color: #c09f80;
 }
 
-/*
-.about{
-    background-color: #801836;
-}
-
-.work{
-    background-color: #510a32;
-}
-
-.contact{
-    background-color: #2d142c;
-}
-*/
-
-.not-active {
+a.not-active {
     pointer-events: none;
     cursor: default;
+    background-color: #76323f;
+    color: #e8e1dc;
 }
 
 div.container{
@@ -67,28 +59,39 @@ div.container{
     height: 300px;
     min-width: 20%;
     text-align: center;
-    color: white;
 }
 
 .block.aboutthegame{
-    color: black;
+    color: #76323f;
     text-align: left;
     height: auto;
     padding: 0px;
 }
 
+.outline-btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #565656;
+    border: 2px solid #565656;
+}
+
+.outline-btn:hover{
+    border-color: #76323f;
+    background-color: #76323f;
+}
+
 footer {
     margin-top: 3%;
-	background-color:#f3f5f8;
-	padding:40px 0 30px;
+	background-color:#fafafa;
+	padding: 40px 0 30px;
     display: block;
     color: #808080;
 }
 
 footer a {
-	color:#a1a9b0;
+	color:#c09f80;
 }
 
 footer a:hover {
-	color: #e03c40;
+	color: #76323f;
 }
