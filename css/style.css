@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -11,7 +15,7 @@ div a, div a:hover, div a:checked{
 
 .headerbar{
     padding-top: 10%;
-    background-image: url(/2xWhite.png);
+    background-image: url(/2xBlack.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,6 +25,7 @@ div a, div a:hover, div a:checked{
 .row.menu{
     color: white;
     margin-bottom: 45px;
+	background-color: black;
 }
 
 .menu a{
@@ -32,6 +37,7 @@ div a, div a:hover, div a:checked{
     color: wheat;
 }
 
+/*
 .about{
     background-color: #801836;
 }
@@ -43,6 +49,7 @@ div a, div a:hover, div a:checked{
 .contact{
     background-color: #2d142c;
 }
+*/
 
 .not-active {
     pointer-events: none;
@@ -52,6 +59,7 @@ div a, div a:hover, div a:checked{
 div.container{
     padding: 0 8%;
 }
+
 .block{
     border-style: solid;
     border-width: 30px;

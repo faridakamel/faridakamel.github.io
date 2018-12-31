@@ -1,6 +1,8 @@
+/*
 .headerbar{
     background-color: #801836;
 }
+*/
 
 .heading{
     font-size: 25px;
@@ -38,6 +40,7 @@
     border: 2px solid white;
     border-radius: 5px;
 }
+
 
 .outline-btn:hover{
     border-color: #e03c40;
