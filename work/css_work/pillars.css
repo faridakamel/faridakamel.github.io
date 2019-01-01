@@ -5,7 +5,7 @@
 */
 
 .block{
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -16,45 +16,22 @@
 }
 
 .block.final{
-    background-image: url(/work/img_work/drawings01.jpg);
+    background-image: url(/work/img_work/img_pillars/pillarsFinal.jpg);
     height: 600px;
-    background-size: cover;
 }
 
-.block.fullfront{
-    background-image: url(/work/img_work/img_arabiangypsy/angieFullFront.png);
-    background-color:gainsboro;
-    height: 85vw;
-    background-size: cover;
-}
-
-.block.front{
-    background-image: url(/work/img_work/img_arabiangypsy/angieHeadFront.png);
-    background-color:gainsboro;
-}
-
-.block.side{
-    background-image: url(/work/img_work/img_arabiangypsy/angieHeadSide.png);
-    background-color:gainsboro;
-}
-
-.block.texture{
-    background-size: cover;
+.block.study{
     height: 200px;
 }
 
-.block.texture.one{
-    background-image: url(/work/img_work/img_arabiangypsy/hairtexture.png);
+.block.study.one{
+    background-image: url(/work/img_work/img_pillars/study1.jpg);
 }
 
-.block.texture.two{
-    background-image: url(/work/img_work/img_arabiangypsy/leopardPants.png);
+.block.study.two{
+    background-image: url(/work/img_work/img_pillars/study2.jpg);
 }
 
-.block.texture.three{
-    background-image: url(/work/img_work/img_arabiangypsy/goldnosering.jpg);
-}
-
-.block.texture.four{
-    background-image: url(/work/img_work/img_arabiangypsy/purplesatin.jpg);
+.block.study.three{
+    background-image: url(/work/img_work/img_pillars/study3.jpg);
 }
