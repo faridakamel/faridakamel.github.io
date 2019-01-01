@@ -8,7 +8,7 @@
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 500px;
 }
 
 .block h1{
@@ -17,6 +17,5 @@
 }
 
 .block.wallposter{
-    background-color: floralwhite;
     background-image: url(/work/img_work/img_operaaida/bookCover.png);
 }
