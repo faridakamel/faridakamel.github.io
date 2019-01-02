@@ -1,9 +1,3 @@
-/*
-.headerbar{
-    background-color: #510a32;
-}
-*/
-
 .block{
     background-size: cover;
     background-position: center center;
@@ -15,19 +9,38 @@
     text-align: center;
 }
 
-.block.final{
-    background-image: url(/work/img_work/img_pillars/pillarsFinal.jpg);
+.block.image{
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
     height: 600px;
+    background-color: #515151
 }
 
-.block.study.one{
-    background-image: url(/work/img_work/img_pillars/study1.jpg);
+.image.cover{
+    background-image: url(/work/img_work/img_specimen/cover.png);
 }
 
-.block.study.two{
-    background-image: url(/work/img_work/img_pillars/study2.jpg);
+.image.author{
+    background-image: url(/work/img_work/img_specimen/author.png);
 }
 
-.block.study.three{
-    background-image: url(/work/img_work/img_pillars/study3.jpg);
+.image.about{
+    background-image: url(/work/img_work/img_specimen/about.png);
+}
+
+.image.sizes{
+    background-image: url(/work/img_work/img_specimen/sizes.png);
+}
+
+.image.symbols{
+    background-image: url(/work/img_work/img_specimen/symbols.png);
+}
+
+.image.date{
+    background-image: url(/work/img_work/img_specimen/1961.png);
+}
+
+.image.commas{
+    background-image: url(/work/img_work/img_specimen/commas.png);
 }
