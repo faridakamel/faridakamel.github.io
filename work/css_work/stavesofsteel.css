@@ -1,9 +1,3 @@
-/*
-.headerbar{
-    background-color: #510a32;
-}
-*/
-
 .block{
     background-size: contain;
     background-position: center center;
@@ -15,52 +9,51 @@
     text-align: center;
 }
 
-.block.agent{
-    background-color: mistyrose;
+.sprite{
+    background-color: gainsboro;
+}
+
+.sprite.agent{
     background-image: url(/work/img_work/img_stavesofsteel/secretAgent.png);
 }
 
-.block.agent:hover{
+.sprite.agent:hover{
     background-image: url(/work/img_work/img_stavesofsteel/secretAgentJJ.png);
 }
 
-.block.old{
-    background-color: lavender;
+.sprite.old{
     background-image: url(/work/img_work/img_stavesofsteel/oldManBling.png);
 }
 
-.block.old:hover{
+.sprite.old:hover{
     background-image: url(/work/img_work/img_stavesofsteel/oldManBlingJJ.png);
 }
 
-.block.hunter{
-    background-color: darkseagreen;
+.sprite.hunter{
     background-image: url(/work/img_work/img_stavesofsteel/hunter.png);
 }
 
-.block.hunter:hover{
+.sprite.hunter:hover{
     background-image: url(/work/img_work/img_stavesofsteel/hunterJJ.png);
 }
 
-.block.tarzan{
-    background-color: gainsboro;
+.sprite.tarzan{
     background-image: url(/work/img_work/img_stavesofsteel/tarzanesque.png);
 }
 
-.block.tarzan:hover{
+.sprite.tarzan:hover{
     background-image: url(/work/img_work/img_stavesofsteel/tarzanesqueJJ.png);
 }
 
-.block.ninja{
-    background-color: palegoldenrod;
+.sprite.ninja{
     background-image: url(/work/img_work/img_stavesofsteel/ninja.png);
 }
 
-.block.ninja:hover{
+.sprite.ninja:hover{
     background-image: url(/work/img_work/img_stavesofsteel/ninjaJJ.png);
 }
 
-.block.chest{
+.sprite.chest{
     background-image: url(/work/img_work/img_stavesofsteel/stoneWall.png);
     background-size: 200px;
     background-position: left;
@@ -68,22 +61,18 @@
     overflow: hidden;
 }
 
-.block.dagger{
-    background-color: darkseagreen;
+.sprite.dagger{
     background-image: url(/work/img_work/img_stavesofsteel/dagger.png);
 }
 
-.block.star{
-    background-color: palegoldenrod;
+.sprite.star{
     background-image: url(/work/img_work/img_stavesofsteel/star.png);
 }
 
-.block.orb{
-    background-color: lavender;
+.sprite.orb{
     background-image: url(/work/img_work/img_stavesofsteel/orb.png);
 }
 
-.block.javelin{
-    background-color: gainsboro;
+.sprite.javelin{
     background-image: url(/work/img_work/img_stavesofsteel/javelin.png);
 }

@@ -1,9 +1,3 @@
-/*
-.headerbar{
-    background-color: #510a32;
-}
-*/
-
 .block{
     background-size: contain;
     background-position: center center;
@@ -17,8 +11,8 @@
 
 .block.full{
     background-image: url(/work/img_work/img_arabiangypsy/angieFull.png);
-    background-color:gainsboro;
-    height: 45vw;
+    background-color: gainsboro;
+    height: 55vw;
     background-size: cover;
 }
 

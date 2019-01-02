@@ -24,14 +24,8 @@ a h4{
 }
 
 .block.aida{
-    background-image: url(/work/img_work/img_operaaida/A1poster.jpg);
+    background-image: url(/work/img_work/img_operaaida/posterA1.jpg);
     background-size: 101%;
-}
-
-.block.pillars{
-    background-color: gray;
-    background-image: url(/work/img_work/img_pillars/pillarsFinal.jpg);
-    background-size: cover;
 }
 
 .block.pixel{
@@ -47,6 +41,12 @@ a h4{
 .block.trailers{
     background-color: dimgray;
     background-image: url(/work/img_work/trailers.png);
+    background-size: cover;
+}
+
+.block.pillars{
+    background-color: gray;
+    background-image: url(/work/img_work/img_pillars/pillarsFinal.jpg);
     background-size: cover;
 }
 
