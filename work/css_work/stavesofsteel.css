@@ -87,17 +87,3 @@
     background-color: gainsboro;
     background-image: url(/work/img_work/img_stavesofsteel/javelin.png);
 }
-
-.outline-btn{
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: white;
-    color: #801836;
-    border: 2px solid #801836;
-    border-radius: 5px;
-}
-
-.outline-btn:hover{
-    border-color: #801836;
-    background-color: #801836;
-}

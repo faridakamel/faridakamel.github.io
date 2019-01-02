@@ -23,10 +23,9 @@ a h4{
     background-blend-mode: multiply;
 }
 
-.block.jewels{
-    background-color: darkslategray;
-    background-image: url(/work/img_work/img_crownjewels/man.png);
-    background-size: contain;
+.block.aida{
+    background-image: url(/work/img_work/img_operaaida/A1poster.jpg);
+    background-size: 101%;
 }
 
 .block.pillars{
@@ -57,12 +56,18 @@ a h4{
     background-size: contain;
 }
 
-.block.daft{
-    background-image: url(/work/img_work/DAFTposter.jpg);
+.block.specimen{
+    background-image: url(/work/img_work/img_specimen/symbols.png);
     background-size: cover;
 }
 
-.block.aida{
-    background-image: url(/work/img_work/img_operaaida/A1poster.jpg);
-    background-size: 101%;
+.block.jewels{
+    background-color: darkslategray;
+    background-image: url(/work/img_work/img_crownjewels/man.png);
+    background-size: contain;
+}
+
+.block.daft{
+    background-image: url(/work/img_work/DAFTposter.jpg);
+    background-size: cover;
 }
