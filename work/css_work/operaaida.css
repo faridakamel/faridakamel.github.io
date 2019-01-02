@@ -6,9 +6,9 @@
 
 .block{
     background-size: contain;
-    background-position: center center;
+    background-position: bottom;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 600px;
 }
 
 .block h1{
@@ -16,6 +16,10 @@
     text-align: center;
 }
 
-.block.wallposter{
+.block.book{
     background-image: url(/work/img_work/img_operaaida/bookCover.png);
+}
+
+.block.ticket{
+    background-image: url(/work/img_work/img_operaaida/ticket);
 }
