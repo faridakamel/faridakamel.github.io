@@ -13,66 +13,26 @@
     background-color: gainsboro;
 }
 
-.sprite.agent{
-    background-image: url(/work/img_work/img_stavesofsteel/secretAgent.png);
+.sprite.long{
+    height: 600px;
 }
 
-.sprite.agent:hover{
-    background-image: url(/work/img_work/img_stavesofsteel/secretAgentJJ.png);
+.sprite.king{
+    background-image: url(/work/img_work/img_crownjewels/man.png);
 }
 
-.sprite.old{
-    background-image: url(/work/img_work/img_stavesofsteel/oldManBling.png);
+.sprite.knight{
+    background-image: url(/work/img_work/img_crownjewels/man.png);
 }
 
-.sprite.old:hover{
-    background-image: url(/work/img_work/img_stavesofsteel/oldManBlingJJ.png);
+.sprite.queen{
+    background-image: url(/work/img_work/img_crownjewels/man.png);
 }
 
-.sprite.hunter{
-    background-image: url(/work/img_work/img_stavesofsteel/hunter.png);
+.sprite.dragon{
+    background-image: url(/work/img_work/img_crownjewels/dragon.png);
 }
 
-.sprite.hunter:hover{
-    background-image: url(/work/img_work/img_stavesofsteel/hunterJJ.png);
-}
-
-.sprite.tarzan{
-    background-image: url(/work/img_work/img_stavesofsteel/tarzanesque.png);
-}
-
-.sprite.tarzan:hover{
-    background-image: url(/work/img_work/img_stavesofsteel/tarzanesqueJJ.png);
-}
-
-.sprite.ninja{
-    background-image: url(/work/img_work/img_stavesofsteel/ninja.png);
-}
-
-.sprite.ninja:hover{
-    background-image: url(/work/img_work/img_stavesofsteel/ninjaJJ.png);
-}
-
-.sprite.chest{
-    background-image: url(/work/img_work/img_stavesofsteel/stoneWall.png);
-    background-size: 200px;
-    background-position: left;
-    background-repeat:repeat;
-    overflow: hidden;
-}
-
-.sprite.dagger{
-    background-image: url(/work/img_work/img_stavesofsteel/dagger.png);
-}
-
-.sprite.star{
-    background-image: url(/work/img_work/img_stavesofsteel/star.png);
-}
-
-.sprite.orb{
-    background-image: url(/work/img_work/img_stavesofsteel/orb.png);
-}
-
-.sprite.javelin{
-    background-image: url(/work/img_work/img_stavesofsteel/javelin.png);
+.sprite.castle{
+    background-image: url(/work/img_work/img_crownjewels/castle.png);
 }
