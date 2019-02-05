@@ -1,0 +1,57 @@
+.block{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.block h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.block.image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+.image.one{
+    background-image: url(/work/img_work/img_poweroften/01.jpg);
+}
+
+.image.two{
+    background-image: url(/work/img_work/img_poweroften/02.jpg);
+}
+
+.image.three{
+    background-image: url(/work/img_work/img_poweroften/03.jpg);
+}
+
+.image.four{
+    background-image: url(/work/img_work/img_poweroften/04.jpg);
+}
+
+.image.five{
+    background-image: url(/work/img_work/img_poweroften/05.jpg);
+}
+
+.image.six{
+    background-image: url(/work/img_work/img_poweroften/06.jpg);
+}
+
+.image.seven{
+    background-image: url(/work/img_work/img_poweroften/07.jpg);
+}
+
+.image.eight{
+    background-image: url(/work/img_work/img_poweroften/08.jpg);
+}
+
+.image.nine{
+    background-image: url(/work/img_work/img_poweroften/09.jpg);
+}
+
+.image.ten{
+    background-image: url(/work/img_work/img_poweroften/10.jpg);
+}
