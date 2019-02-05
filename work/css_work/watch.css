@@ -1,0 +1,41 @@
+.block{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.block h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.block.image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.image.watchold{
+    background-image: url(/work/img_work/img_watch/watchOriginal.JPG);
+}
+
+.image.watchnew{
+    background-image: url(/work/img_work/img_watch/watchEdited.jpg);
+}
+
+.image.modelold{
+    background-image: url(/work/img_work/img_watch/saraOriginal.jpg);
+}
+
+.image.modelnew{
+    background-image: url(/work/img_work/img_watch/saraEdited.jpg);
+}
+
+.image.finalspread{
+    background-image: url(/work/img_work/img_watch/finalSpread.jpg);
+}
+
+.image.finalspreadmagazine{
+    background-image: url(/work/img_work/img_watch/finalSpreadMagazine.png);
+}
