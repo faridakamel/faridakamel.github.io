@@ -76,6 +76,11 @@ a h4{
     background-color: #006866;
 }
 
+.block.cairowomen{
+    background-image: url(/work/img_work/img_cairowomen/9_Farida%20Kamel.jpg);
+    background-size: cover;
+}
+
 .block.daft{
     background-image: url(/work/img_work/DAFTposter.jpg);
     background-size: cover;
