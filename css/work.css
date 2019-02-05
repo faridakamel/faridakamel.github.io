@@ -73,13 +73,13 @@ a h4{
 }
 
 .block.jewels{
-    background-color: #208686;
+    background-color: brown;
     background-image: url(/work/img_work/img_crownjewels/man.png);
     background-size: contain;
 }
 
 .block.jewels:hover{
-    background-color: #006866;
+    background-color: maroon;
 }
 
 .block.cairowomen{
