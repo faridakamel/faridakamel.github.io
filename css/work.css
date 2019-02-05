@@ -45,6 +45,12 @@ a h4{
     background-size: cover;
 }
 
+.block.watch{
+    background-color: dimgray;
+    background-image: url(/work/img_work/img_watch/thumbnail.jpg);
+    background-size: cover;
+}
+
 .block.pillars{
     background-color: gray;
     background-image: url(/work/img_work/img_pillars/pillarsFinal.jpg);
