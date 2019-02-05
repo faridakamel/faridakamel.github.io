@@ -1,0 +1,69 @@
+.block{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.block h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.block.image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.image.vert{
+    height: 1000px;
+}
+
+.image.one{
+    background-image: url(/work/img_work/img_womenofcairo/1_Farida%20Kamel.jpg);
+}
+
+.image.two{
+    background-image: url(/work/img_work/img_womenofcairo/2_Farida%20Kamel.jpg);
+}
+
+.image.three{
+    background-image: url(/work/img_work/img_womenofcairo/3_Farida%20Kamel.jpg);
+}
+
+.image.four{
+    background-image: url(/work/img_work/img_womenofcairo/4_Farida%20Kamel.jpg);
+}
+
+.image.five{
+    background-image: url(/work/img_work/img_womenofcairo/5_Farida%20Kamel.jpg);
+}
+
+.image.six{
+    background-image: url(/work/img_work/img_womenofcairo/6_Farida%20Kamel.jpg);
+}
+
+.image.seven{
+    background-image: url(/work/img_work/img_womenofcairo/7_Farida%20Kamel.jpg);
+}
+
+.image.eight{
+    background-image: url(/work/img_work/img_womenofcairo/8_Farida%20Kamel.jpg);
+}
+
+.image.nine{
+    background-image: url(/work/img_work/img_womenofcairo/9_Farida%20Kamel.jpg);
+}
+
+.image.ten{
+    background-image: url(/work/img_work/img_womenofcairo/10_Farida%20Kamel.jpg);
+}
+
+.image.eleven{
+    background-image: url(/work/img_work/img_womenofcairo/11_Farida%20Kamel.jpg);
+}
+
+.image.twelve{
+    background-image: url(/work/img_work/img_womenofcairo/12_Farida%20Kamel.jpg);
+}
