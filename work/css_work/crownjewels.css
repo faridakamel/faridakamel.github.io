@@ -13,10 +13,6 @@
     background-color: gainsboro;
 }
 
-.sprite.long{
-    height: 600px;
-}
-
 .sprite.king{
     background-image: url(/work/img_work/img_crownjewels/man.png);
 }

@@ -9,33 +9,33 @@
     text-align: center;
 }
 
-.block.image{
+.block.long{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 600px;
 }
 
-.image.watchold{
+.long.watchold{
     background-image: url(/work/img_work/img_watch/watchOriginal.JPG);
 }
 
-.image.watchnew{
+.long.watchnew{
     background-image: url(/work/img_work/img_watch/watchEdited.jpg);
 }
 
-.image.modelold{
+.long.modelold{
     background-image: url(/work/img_work/img_watch/saraOriginal.jpg);
 }
 
-.image.modelnew{
+.long.modelnew{
     background-image: url(/work/img_work/img_watch/saraEdited.jpg);
 }
 
-.image.finalspread{
+.long.finalspread{
     background-image: url(/work/img_work/img_watch/finalSpread.jpg);
+    height: 600px;
 }
 
-.image.finalspreadmagazine{
+.long.finalspreadmagazine{
     background-image: url(/work/img_work/img_watch/finalSpreadMagazine.png);
 }

@@ -9,33 +9,32 @@
     text-align: center;
 }
 
-.block.image{
+.block.long{
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 600px;
 }
 
-.image.cover{
+.long.cover{
     background-image: url(/work/img_work/img_specimen/cover.png);
 }
 
-.image.author{
+.long.author{
     background-image: url(/work/img_work/img_specimen/author.png);
 }
 
-.image.sizes{
+.long.sizes{
     background-image: url(/work/img_work/img_specimen/sizes.png);
 }
 
-.image.symbols{
+.long.symbols{
     background-image: url(/work/img_work/img_specimen/symbols.png);
 }
 
-.image.date{
+.long.date{
     background-image: url(/work/img_work/img_specimen/1961.png);
 }
 
-.image.commas{
+.long.commas{
     background-image: url(/work/img_work/img_specimen/commas.png);
 }

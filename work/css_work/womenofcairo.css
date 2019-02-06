@@ -13,11 +13,11 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 500px;
 }
 
-.image.vert{
-    height: 1000px;
+.image.long{
+    height: 900px;
 }
 
 .image.one{
