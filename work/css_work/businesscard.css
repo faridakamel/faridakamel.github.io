@@ -1,0 +1,28 @@
+.block{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.block h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.block.long{
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.long.front{
+    background-image: url(/work/img_work/img_businesscard/businessCard.jpg);
+}
+
+.long.back{
+    background-image: url(/work/img_work/img_businesscard/businessCard.jpg);
+}
+
+.long.final{
+    background-image: url(/work/img_work/img_businesscard/businessCard.jpg);
+}

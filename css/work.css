@@ -68,10 +68,17 @@ a h4{
 }
 
 .block.specimen{
+    background-color: maroon;
     background-image: url(/work/img_work/img_specimen/cover.png);
     background-size: cover;
 }
 
+.block.businesscard{
+    background-image: url(/work/img_work/img_businesscard/businessCard.jpg);
+    background-size: cover;
+}
+
+/*
 .block.jewels{
     background-color: brown;
     background-image: url(/work/img_work/img_crownjewels/man.png);
@@ -81,6 +88,7 @@ a h4{
 .block.jewels:hover{
     background-color: maroon;
 }
+*/
 
 .block.womenofcairo{
     background-image: url(/work/img_work/img_womenofcairo/9_Farida%20Kamel.jpg);
