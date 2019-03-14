@@ -1,0 +1,21 @@
+/*
+.headerbar{
+    background-color: #510a32;
+}
+*/
+
+.block{
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 340px;
+}
+
+.block h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.poster{
+    background-image: url(/work/img_work/img_globalwarming/globalWarming.jpg);
+}
