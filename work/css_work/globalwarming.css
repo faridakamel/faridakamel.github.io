@@ -19,3 +19,9 @@
 .poster{
     background-image: url(/work/img_work/img_globalwarming/globalWarming.jpg);
 }
+
+.mockup{
+    background-image: url(/work/img_work/img_globalwarming/globalWarmingMockup.jpg);
+    background-size: cover;
+
+}
