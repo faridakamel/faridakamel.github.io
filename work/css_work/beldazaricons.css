@@ -1,0 +1,39 @@
+.block{
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.block h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.icon{
+    background-color: rgb(250,250,250);
+    background-size: contain;
+}
+
+.icon.clothingitems{
+    background-image: url(/work/img_work/img_beldazaricons/ClothingItems.png);
+}
+
+.icon.influencers2{
+    background-image: url(/work/img_work/img_beldazaricons/Influencers2.png);
+}
+
+.icon.community{
+    background-image: url(/work/img_work/img_beldazaricons/Community.png);
+}
+
+.icon.hashtag{
+    background-image: url(/work/img_work/img_beldazaricons/Hashtag.png);
+}
+
+.icon.sale{
+    background-image: url(/work/img_work/img_beldazaricons/Sale.png);
+}
+
+.icon.influencers{
+    background-image: url(/work/img_work/img_beldazaricons/Influencers.png);
+}

@@ -51,6 +51,12 @@ a i{
     background-size: cover;
 }
 
+.block.cffagencyicons{
+    background-color: dimgray;
+    background-image: url(/work/img_work/img_cffagencyicons/celio.png);
+    background-size: cover;
+}
+
 .block.watch{
     background-color: dimgray;
     background-image: url(/work/img_work/img_watch/thumbnail.jpg);

@@ -1,0 +1,39 @@
+.block{
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.block h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.icon{
+    background-color: rgb(250,250,250);
+    background-size: cover;
+}
+
+.icon.oldnavy{
+    background-image: url(/work/img_work/img_cffagencyicons/oldnavy.png);
+}
+
+.icon.celio{
+    background-image: url(/work/img_work/img_cffagencyicons/celio.png);
+}
+
+.icon.nagwazahran{
+    background-image: url(/work/img_work/img_cffagencyicons/nagwazahran.png);
+}
+
+.icon.lavie{
+    background-image: url(/work/img_work/img_cffagencyicons/lavie.png);
+}
+
+.icon.toa{
+    background-image: url(/work/img_work/img_cffagencyicons/toa.png);
+}
+
+.icon.lovebyn{
+    background-image: url(/work/img_work/img_cffagencyicons/lovebynxcff.png);
+}
