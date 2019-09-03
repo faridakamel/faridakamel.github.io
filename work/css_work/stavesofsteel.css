@@ -1,0 +1,81 @@
+.navbar{
+    background-color: #AAAAAA;
+}
+
+#home{
+    background-color: #AAAAAA;
+}
+
+#home .name{
+    padding: 120px 150px;
+    font-size: 4vmax;
+}
+
+#more .content .cards.short{
+    height: 350px;
+    background-size: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #AAAAAA;
+}
+
+img{
+    height: 270px;
+    width: auto;
+}
+
+.hunter{
+    background-image: url(/work/img_work/img_stavesofsteel/hunter.png);
+}
+
+.hunter:hover{
+    background-image: url(/work/img_work/img_stavesofsteel/hunterJJ.png);
+}
+
+.ninja{
+    background-image: url(/work/img_work/img_stavesofsteel/ninja.png);
+}
+
+.ninja:hover{
+    background-image: url(/work/img_work/img_stavesofsteel/ninjaJJ.png);
+}
+
+.secretagent{
+   background-image: url(/work/img_work/img_stavesofsteel/secretAgent.png);
+}
+
+.secretagent:hover{
+    background-image: url(/work/img_work/img_stavesofsteel/secretAgentJJ.png);
+}
+
+.oldmanbling{
+    background-image: url(/work/img_work/img_stavesofsteel/oldManBling.png);
+}
+
+.oldmanbling:hover{
+   background-image:  url(/work/img_work/img_stavesofsteel/oldManBlingJJ.png);
+}
+
+.chest{
+    height: 350px;
+    background-size: 100px;;
+    background-image: url(/work/img_work/img_stavesofsteel/stoneWall.png);
+    background-position: center center;
+    background-repeat: repeat;
+}
+
+.javelin{
+    background-image: url(/work/img_work/img_stavesofsteel/javelin.png);
+}
+
+.star{
+    background-image: url(/work/img_work/img_stavesofsteel/star.png);
+}
+
+.dagger{
+    background-image: url(/work/img_work/img_stavesofsteel/dagger.png);
+}
+
+.orb{
+    background-image: url(/work/img_work/img_stavesofsteel/orb.png);
+}

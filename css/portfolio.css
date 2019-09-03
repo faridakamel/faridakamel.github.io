@@ -1,0 +1,115 @@
+.navbar{
+    background-color: whitesmoke;
+}
+
+#home{
+    background-color: #EA7317;
+    height: 100vh;
+    color: white;
+}
+
+#home .name{
+    padding: 280px 20px;
+    font-size: 11vmax;
+    font-weight: 800;
+    height: 90vh;
+}
+
+#home .scroll{
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+/*
+#more{
+}
+
+#more .content .cards{
+    height: 300px;
+}
+
+.circle{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    padding: 30px 7px;
+    margin-top: 50px;
+    display: inline-block;
+    
+    background-color: rgba(55,55,55,0.7);
+    color: white;
+    opacity: 0;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.desc{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 100;
+    
+    padding-top: 5px;
+}
+
+a:hover .circle{
+    opacity: 1;
+}
+
+@media (max-width: 450px){
+   a .circle{
+    opacity: 1;
+} 
+}
+
+.beldazaricons{
+    background: whitesmoke url(/work/img_work/img_beldazaricons/bg.png) center center;
+    background-size: contain;
+}
+
+.aida{
+    background: url(/work/img_work/img_operaaida/posterA1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.watch{
+    background: black url(/work/img_work/img_watch/thumbnail.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+.specimen{
+    background: maroon url(/work/img_work/img_specimen/cover.png) no-repeat center center;
+    background-size: cover;
+}
+
+.stavesofsteel{
+    background: #AAAAAA url(/work/img_work/img_stavesofsteel/thumbnail.png) no-repeat center center;
+    background-size: contain;
+}
+
+.womenofcairo{
+    background: url(/work/img_work/img_womenofcairo/9_Farida%20Kamel.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.patterns{
+    background: url(/work/img_work/img_patterns/05.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.daft{
+    background: rgb(70,90,135) url(/work/img_work/DAFTposter.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poweroften{
+    background: lightgrey url(/work/img_work/img_poweroften/10.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.gypsy{
+    background: rgb(200,160,80) url(/work/img_work/img_arabiangypsy/angieHeadFront.png) no-repeat center center;
+    background-size: contain;
+}*/

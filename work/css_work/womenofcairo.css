@@ -1,0 +1,12 @@
+.navbar{
+    background-color: darkslategray;
+}
+
+#home{
+    background-color: darkslategray;
+    color: white;
+}
+
+#home .name{
+    font-size: 4vmax;
+}

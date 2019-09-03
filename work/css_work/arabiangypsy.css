@@ -1,0 +1,58 @@
+.navbar{
+    background-color: rgb(200,160,80);
+}
+
+#home{
+    background-color: rgb(200,160,80);
+}
+
+#home .name{
+    color: white;
+}
+
+#home .name span{
+    font-family: 'Playfair Display', serif;
+    font-size: 0.5em;
+    font-style: italic;
+}
+
+#more .content .cards{
+    border: solid white 30px;
+    padding: 0;
+}
+
+#more .content .cards.short{
+    min-height: 400px;
+    background-size: 500px;
+}
+
+#more .content .cards.shortlong{
+    min-height: 500px;
+    background-size: 650px;
+}
+
+#more .content .cards.long{
+    height: 800;
+    background-size: 600px;
+}
+
+.pic{
+    background-color: rgb(240,210,130);
+    background-position: bottom center;
+}
+
+.full{
+    background: rgb(240,210,130) url(/work/img_work/img_arabiangypsy/angieFull.png) no-repeat center center;
+}
+
+.fullfront{
+    background: rgb(240,210,130) url(/work/img_work/img_arabiangypsy/angieFullFront.png) no-repeat center center;
+}
+
+.book{
+    background: url(/work/img_work/img_operaaida/bookCover.png) no-repeat center center;
+}
+
+.ticket{
+    background: url(/work/img_work/img_operaaida/ticket) no-repeat center center;
+}
