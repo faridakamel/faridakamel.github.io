@@ -1,83 +1,88 @@
-.navbar{
-/*    background-color: #FFCE3C;*/
-    background-color: whitesmoke;
+.navbar {
+  /*    background-color: #FFCE3C;*/
+  background-color: whitesmoke;
 }
 
-#home{
-    height: 90vh;
-    color: black;
-    margin-bottom: 70px;
+#home {
+  height: 90vh;
+  color: black;
+  margin-bottom: 70px;
 }
 
-#home .intro{
-    padding: 10% 15%;
-    height: 82vh;
+#home .intro {
+  padding: 10% 15%;
+  height: 82vh;
 }
 
-#home .title{
-    height: 15vh;
+#home .title {
+  height: 15vh;
 }
 
-#home .about{
-    padding-top: 10%;
-    font-size: 1.4rem;
-    height: 77vh;
+#home .about {
+  padding-top: 10%;
+  font-size: 1.4rem;
+  height: 77vh;
 }
 
-#home .scroll{
-    font-family: 'Playfair Display', serif;
-    font-size: 1em;
-    font-weight: 800;
+#home .scroll {
+  font-family: "Playfair Display", serif;
+  font-size: 1em;
+  font-weight: 800;
 }
 
-#more .content{
-    padding: 70px 0px;
+#more .content {
+  padding: 70px 0px;
 }
 
-#home .about a, #more #experience a{
-    font-family: 'Playfair Display', serif;
-    font-size: 1.4rem;
-    font-style: italic;
-    color: black;
+#home .about a,
+#more #experience a {
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: black;
 }
 
-#more .menu li a:hover, #more .about a:hover, #more #experience a:hover{
-    color: #808080;
+#more .menu li a:hover,
+#more .about a:hover,
+#more #experience a:hover {
+  color: #808080;
 }
 
-.title{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 3.2vmax;
-    font-weight: 800;
-    font-style: normal;
-    margin-bottom: 1.3em;
+.title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3.2vmax;
+  font-weight: 800;
+  font-style: normal;
+  margin-bottom: 1.3em;
 }
 
 .title span {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.8em;
-    font-weight: 100;
-    font-style: italic;
+  font-family: "Playfair Display", serif;
+  font-size: 1.8em;
+  font-weight: 100;
+  font-style: italic;
 }
 
-.content .info{
-    padding: 0 10%;
+.content .info {
+  padding: 0 10%;
 }
 
-#skills div p, #experience div p{
-    font-size: 1.4rem;
-    line-height: 1.7em;
-    color: #666666
+#skills div p,
+#experience div p {
+  font-size: 1.4rem;
+  line-height: 1.7em;
+  color: #666666;
 }
 
-#skills div p b, #experience div p b{
-    color: black;
+#skills div p b,
+#experience div p b {
+  color: black;
 }
 
-#skills p span{
-    letter-spacing: 0.3em;
+#skills p span {
+  letter-spacing: 0.3em;
 }
 
-#more #experience{
-    padding-bottom: 50px;
+#more #experience {
+  padding-bottom: 50px;
 }

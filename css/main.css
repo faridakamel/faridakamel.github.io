@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,800");
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800|Playfair+Display&display=swap');
 
 /*
@@ -25,7 +25,7 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-    font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 article, aside, details, figcaption, figure,
@@ -37,10 +37,18 @@ body {
 	line-height: 1;
 }
 
+div.container-fluid#more{
+	margin-top: 5%;
+}
+
+div#main{
+	padding: 4vmax 0 0
+}
+
 .title{
     font-family: 'Open Sans', sans-serif;
-    font-size: 3.2vmax;
-    font-weight: 800;
+    font-size: 2vmax;
+    font-weight: 700;
     font-style: normal;
     padding: 0;
     height: 15vh;
@@ -48,7 +56,7 @@ body {
 
 .title span {
     font-family: 'Playfair Display', serif;
-    font-size: 6vmax;
+    font-size: 4vmax;
     font-weight: 100;
     font-style: italic;
 }
@@ -138,7 +146,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #585858;
 		font-size: 16pt;
-		font-weight: 300;
+		font-weight: 700;
 		line-height: 1.75;
 	}
 
@@ -181,7 +189,7 @@ input, select, textarea {
 
     .viewinaction{
     font-family: 'Open Sans', serif;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 #chest{
@@ -241,7 +249,7 @@ input, select, textarea {
 
 	h2, h3, h4, h5, h6 {
         font-family: 'Open Sans', sans-serif;
-		font-weight: 600;
+		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 /*		text-transform: uppercase;*/
@@ -2157,7 +2165,7 @@ input, select, textarea {
 	label {
 		display: block;
 		font-size: 0.9em;
-		font-weight: 900;
+		font-weight: 700;
 		margin: 0 0 1em 0;
 	}
 
@@ -2483,7 +2491,7 @@ input, select, textarea {
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
-		font-weight: 900;
+		font-weight: 700;
 		height: 3.5em;
 		letter-spacing: 0.35em;
 		line-height: 3.45em;
@@ -2715,13 +2723,18 @@ input, select, textarea {
 
 				.tiles article > a h2 {
 					margin: 0;
-                    font-weight: 800;
+                    font-weight: bold;
                     font-size: 1.6rem;
 /*                    background-color: rgba(120,120,120,0);*/
                     text-shadow: 0 0 10px #666;
                     width: 11rem;
                     padding: 10px;
-                    border-radius: 9px;
+					border-radius: 9px;
+					opacity: 0;
+				}
+
+				.tiles article > a:hover h2 {
+					opacity: 1;
 				}
 
 				.tiles article > a .content {
@@ -2825,40 +2838,40 @@ input, select, textarea {
 			opacity: 1;
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1800px) {
 
 			.tiles {
 				margin: -1.25em 0 0 -1.25em;
 			}
 
 				.tiles article {
-					width: calc(25% - 1.25em);
+					width: calc(20% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
 		}
 
-		@media screen and (max-width: 1200px) {
-
-			.tiles {
-				margin: -2.5em 0 0 -2.5em;
-			}
-
-				.tiles article {
-					width: calc(50% - 2.5em);
-					margin: 2.5em 0 0 2.5em;
-				}
-
-		}
-
-		@media screen and (max-width: 1000px) {
+		@media screen and (max-width: 1400px) {
 
 			.tiles {
 				margin: -1.25em 0 0 -1.25em;
 			}
 
 				.tiles article {
-					width: calc(50% - 1.25em);
+					width: calc(25% - 2.5em);
+					margin: 2.5em 0 0 2.5em;
+				}
+
+		}
+
+		@media screen and (max-width: 1100px) {
+
+			.tiles {
+				margin: -1.25em 0 0 -1.25em;
+			}
+
+				.tiles article {
+					width: calc(33.33333333% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
@@ -2871,7 +2884,20 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 580px) {
+		@media screen and (max-width: 800px) {
+
+			.tiles {
+				margin: -1.25em 0 0 -1.25em;
+			}
+
+				.tiles article {
+					width: calc(50% - 2.5em);
+					margin: 2.5em 0 0 2.5em;
+				}
+
+		}
+
+		@media screen and (max-width: 620px) {
 
 			.tiles {
 				margin: 0;

@@ -1,80 +1,80 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800|Playfair+Display&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Playfair+Display&display=swap");
 
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+  display: none;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-.navbar{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 800;
+.navbar {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
-.navbar a{
-    border-bottom: none;
+.navbar a {
+  border-bottom: none;
 }
 
-#home{
-    height: 50vh;
-    margin-bottom: 70px;
+#home {
+  height: 50vh;
+  margin-bottom: 70px;
 }
 
-#home .name{
-    padding: 130px 90px 100px;
-    font-size: 4.5vmax;
-    font-weight: 800;
+#home .name {
+  padding: 130px 90px 100px;
+  font-size: 4.5vmax;
+  font-weight: 700;
 }
 
-#home .name span{
-    font-family: 'Playfair Display', serif;
-    font-size: 0.5em;
-    font-style: italic;
+#home .name span {
+  font-family: "Playfair Display", serif;
+  font-size: 0.5em;
+  font-style: italic;
 }
 
-#more{
-    padding: 0 15%;
+#more {
+  padding: 0 15%;
 }
 
-#more .content .cards{
-    border: solid white 30px;
-    padding: 0;
+#more .content .cards {
+  border: solid white 30px;
+  padding: 0;
 }
 
-#more .content .cards.short{
-    background-size: cover;
+#more .content .cards.short {
+  background-size: cover;
 }
 
-#more .content .cards.long{
-    height: 700px;
-    background-size: cover;
+#more .content .cards.long {
+  height: 700px;
+  background-size: cover;
 }
 
-#more .content .cards.closer a{
-    text-decoration: none;
-    color: black;
-    margin: 20px;
-    font-size: 1.5vmax;
+#more .content .cards.closer a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  font-size: 1.5vmax;
 }
 
-#more .content .cards.closer a:hover{
-    color: #808080;
+#more .content .cards.closer a:hover {
+  color: #808080;
 }
 
-a.viewinaction{
-    font-weight: 800;
+a.viewinaction {
+  font-weight: 700;
 }
 
-a.viewmore{
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
+a.viewmore {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
 }
 
 /*
