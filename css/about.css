@@ -20,7 +20,7 @@
 
 #home .about {
   padding-top: 10%;
-  font-size: 1.4rem;
+  font-size: 1rem;
   height: 77vh;
 }
 
@@ -37,9 +37,10 @@
 #home .about a,
 #more #experience a {
   font-family: "Playfair Display", serif;
-  font-size: 1.4rem;
-  font-style: italic;
+  font-size: 1rem;
+  /* font-style: italic; */
   color: black;
+  font-weight: 800;
 }
 
 #more .menu li a:hover,
@@ -48,28 +49,12 @@
   color: #808080;
 }
 
-.title {
-  font-family: "Open Sans", sans-serif;
-  font-size: 3.2vmax;
-  font-weight: 800;
-  font-style: normal;
-  margin-bottom: 1.3em;
-}
-
-.title span {
-  font-family: "Playfair Display", serif;
-  font-size: 1.8em;
-  font-weight: 100;
-  font-style: italic;
-}
-
 .content .info {
   padding: 0 10%;
 }
 
 #skills div p,
 #experience div p {
-  font-size: 1.4rem;
   line-height: 1.7em;
   color: #666666;
 }

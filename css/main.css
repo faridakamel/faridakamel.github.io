@@ -1,6 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,800");
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800|Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,800|Playfair+Display&display=swap');
 
 /*
 	Phantom by HTML5 UP
@@ -25,7 +25,7 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Roboto', sans-serif; */
 }
 
 article, aside, details, figcaption, figure,
@@ -46,8 +46,8 @@ div#main{
 }
 
 .title{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2vmax;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
     font-weight: 700;
     font-style: normal;
     padding: 0;
@@ -56,9 +56,9 @@ div#main{
 
 .title span {
     font-family: 'Playfair Display', serif;
-    font-size: 4vmax;
+    font-size: 2rem;
     font-weight: 100;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 ol, ul {
@@ -145,7 +145,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #585858;
-		font-size: 16pt;
+		font-size: 14pt;
 		font-weight: 700;
 		line-height: 1.75;
 	}
@@ -161,7 +161,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 10pt;
 			}
 
 		}
@@ -183,12 +183,12 @@ input, select, textarea {
 }
 
     .viewmore{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-align: center;
 }
 
     .viewinaction{
-    font-family: 'Open Sans', serif;
+    font-family: 'Roboto', serif;
     font-weight: 700;
 }
 
@@ -248,7 +248,7 @@ input, select, textarea {
 		}
 
 	h2, h3, h4, h5, h6 {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
 		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
@@ -313,7 +313,7 @@ input, select, textarea {
 
 	blockquote {
 		border-left: solid 4px #c9c9c9;
-		font-style: italic;
+		/* font-style: italic; */
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
 	}
@@ -2619,7 +2619,7 @@ input, select, textarea {
 
         .tiles article p {
             font-family: 'Playfair Display', serif;
-            font-style: italic;
+            /* font-style: italic; */
 }
 
 			.tiles article > .image {

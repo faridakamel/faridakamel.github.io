@@ -1,42 +1,44 @@
-.navbar{
-    background-color: #3DA5D9;
+.navbar {
+  background-color: #3da5d9;
 }
 
-#home{
-    background-color: #3DA5D9;
+#home {
+  background-color: #3da5d9;
 }
 
-#home .name{
-    color: white;
+#home .name {
+  color: white;
 }
 
-#home .name span{
-    font-family: 'Playfair Display', serif;
-    font-size: 0.5em;
-    font-style: italic;
+#home .name span {
+  font-family: "Playfair Display", serif;
+  font-size: 0.5em;
+  /* font-style: italic; */
 }
 
-#more .content .cards{
-    border: solid white 30px;
-    padding: 0;
+#more .content .cards {
+  border: solid white 30px;
+  padding: 0;
 }
 
-#more .content .cards.short{
-    background-size: contain;
+#more .content .cards.short {
+  background-size: contain;
 }
 
-#more .content .cards.long{
-    background-size: contain;
+#more .content .cards.long {
+  background-size: contain;
 }
 
-.poster{
-    background: url(/work/img_work/img_operaaida/posterA1.jpg) no-repeat center center;
+.poster {
+  background: url(/work/img_work/img_operaaida/posterA1.jpg) no-repeat center
+    center;
 }
 
-.book{
-    background: url(/work/img_work/img_operaaida/bookCover.png) no-repeat center center;
+.book {
+  background: url(/work/img_work/img_operaaida/bookCover.png) no-repeat center
+    center;
 }
 
-.ticket{
-    background: url(/work/img_work/img_operaaida/ticket) no-repeat center center;
+.ticket {
+  background: url(/work/img_work/img_operaaida/ticket) no-repeat center center;
 }
