@@ -33,6 +33,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+.navbar-toggler-icon{
+	font-size: 1rem;
+}
+
 body {
 	line-height: 1;
 }
@@ -47,18 +51,27 @@ div#main{
 
 .title{
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
-    font-style: normal;
-    padding: 0;
-    height: 15vh;
+	font-style: normal;
 }
 
 .title span {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
-    font-weight: 100;
+	font-weight: 100;
     /* font-style: italic; */
+}
+
+.text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+}
+
+.text a{
+	color: black;
+	font-weight: 100;
+	text-decoration: solid;
 }
 
 ol, ul {
@@ -145,7 +158,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #585858;
-		font-size: 14pt;
+		font-size: 1rem;
 		font-weight: 700;
 		line-height: 1.75;
 	}
@@ -153,7 +166,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 0.9rem;
 			}
 
 		}
@@ -161,7 +174,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 10pt;
+				font-size: 0.8rem;
 			}
 
 		}
@@ -171,7 +184,8 @@ input, select, textarea {
 		-webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
-		color: #585858;
+		color: #000;
+		font-weight: bold;
 	}
 
 		a:hover, a.viewmore:hover {
@@ -183,7 +197,7 @@ input, select, textarea {
 }
 
     .viewmore{
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -214,12 +228,12 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p {
+	/* p {
 		margin: 0 0 2em 0;
-	}
+	} */
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 2rem;
 		font-weight: 700;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
@@ -233,7 +247,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			h1 {
-				font-size: 2em;
+				font-size: 1.8rem;
 				margin: 0 0 1em 0;
 			}
 
@@ -260,23 +274,23 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1em;
+		font-size: 2rem;
 	}
 
 	h3 {
-		font-size: 1em;
+		font-size: 1.75rem;
 	}
 
 	h4 {
-		font-size: 0.8em;
+		font-size: 1.5rem;
 	}
 
 	h5 {
-		font-size: 0.8em;
+		font-size: 1.3rem;
 	}
 
 	h6 {
-		font-size: 0.8em;
+		font-size: 1.1rem;
 	}
 
 	@media screen and (max-width: 980px) {
@@ -2321,7 +2335,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		border-radius: 4px;
+		/* border-radius: 4px; */
 		border: solid 1px #c9c9c9;
 		margin-bottom: 2em;
 		padding: 1.5em;
@@ -2335,21 +2349,21 @@ input, select, textarea {
 
 		.box.alt {
 			border: 0;
-			border-radius: 0;
+			/* border-radius: 0; */
 			padding: 0;
 		}
 
 /* Image */
 
 	.image {
-		border-radius: 4px;
+		/* border-radius: 4px; */
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 4px;
+			/* border-radius: 4px; */
 			display: block;
 		}
 
@@ -2484,7 +2498,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		background-color: transparent;
-		border-radius: 4px;
+		/* border-radius: 4px; */
 		border: 0;
 /*		box-shadow: inset 0 0 0 2px #585858;*/
 		color: #585858 !important;
@@ -2630,7 +2644,7 @@ input, select, textarea {
 				position: relative;
 				display: block;
 				width: 100%;
-				border-radius: 4px;
+				/* border-radius: 4px; */
 				overflow: hidden;
 			}
 
@@ -2705,7 +2719,7 @@ input, select, textarea {
 				width: 100%;
 				height: 100%;
 				padding: 1em;
-				border-radius: 4px;
+				/* border-radius: 4px; */
 				border-bottom: 0;
 				color: #ffffff;
 				text-align: center;
@@ -2724,12 +2738,12 @@ input, select, textarea {
 				.tiles article > a h2 {
 					margin: 0;
                     font-weight: bold;
-                    font-size: 1.6rem;
+                    font-size: 1.5rem;
 /*                    background-color: rgba(120,120,120,0);*/
                     text-shadow: 0 0 10px #666;
                     width: 11rem;
                     padding: 10px;
-					border-radius: 9px;
+					/* border-radius: 9px; */
 					opacity: 0;
 				}
 
@@ -2754,7 +2768,7 @@ input, select, textarea {
 					}
 
 /*
-			.tiles article.beldazaricons > .image:before {
+			.tiles article.ovsicons > .image:before {
 				background-color: grey;
 			}
 
@@ -2808,7 +2822,7 @@ input, select, textarea {
 			}
 
 				body:not(.is-touch) .tiles article.link:hover > .image:before {
-					background-color: #333333;
+					background-color: #000;
 					opacity: 0.5;
 				}
 
@@ -3116,14 +3130,17 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer {
+	footer {
 		padding: 4em 0 3em 0 ;
 		background-color: #f6f6f6;
-        color: #353535;
-        margin-top: 50px;
+        /* color: #353535; */
+		margin-top: 50px;
+
+		font-size: 0.9rem;
+		font-family: "Playfair Display", serif;
 	}
 
-    #footer a {
+    footer a {
         color: #353535;
     }
 		@media screen and (max-width: 1280px) {

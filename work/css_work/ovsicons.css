@@ -1,0 +1,36 @@
+.navbar{
+    background-color: whitesmoke;
+}
+
+#home{
+    background-color: whitesmoke;
+}
+
+#more .content .cards.short{
+    height: 400px;
+    background-size: contain;
+}
+
+.store{
+    background: whitesmoke url(/work/img_work/img_ovsicons/Store.png) no-repeat center center;
+}
+
+.sale{
+    background: whitesmoke url(/work/img_work/img_ovsicons/Sale.png) no-repeat center center;
+}
+
+.inflone{
+    background: whitesmoke url(/work/img_work/img_ovsicons/Influencers.png) no-repeat center center;
+}
+
+.community{
+    background: whitesmoke url(/work/img_work/img_ovsicons/Community.png) no-repeat center center;
+}
+
+.clothes{
+    background: whitesmoke url(/work/img_work/img_ovsicons/Clothingitems.png) no-repeat center center;
+}
+
+.infltwo{
+    background: whitesmoke url(/work/img_work/img_ovsicons/Influencers2.png) no-repeat center center;
+}
